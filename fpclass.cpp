@@ -14,10 +14,10 @@ static AddInX xai_fpclass(
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Determine the floating point class of x by calling _fpclass()"))
 	.Documentation(
-		_T("Uses the values from the <codeInline>FPCLASS_*</codeInline> enumeration")
+/*		_T("Uses the values from the <codeInline>FPCLASS_*</codeInline> enumeration")
 		,
 		xml::xlink(_T("Float Constants"))
-	)
+*/	)
 );
 LONG WINAPI
 xll_fpclass(double x)

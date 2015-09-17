@@ -5,6 +5,9 @@
 #ifndef CATEGORY
 #define CATEGORY "Function"
 #endif
+#ifndef dimof
+#define dimof(x) sizeof(x)/sizeof(*x)
+#endif
 
 using namespace xll;
 

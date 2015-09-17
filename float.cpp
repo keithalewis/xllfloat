@@ -11,7 +11,7 @@ using namespace xll;
 static AddInX xai_float(
 	DocumentX(CATEGORY)
 	.Documentation(
-		xml::Conceptual(_T("Floating point routines from &lt;cmath&gt; and various utilities."))
+/*		xml::Conceptual(_T("Floating point routines from &lt;cmath&gt; and various utilities."))
 		.section(_T("Introduction"),
 			_T("IEEE floating point numbers do some trickery to get ")
 			_T("an extra bit of precision in the mantissa. Every floating point ")
@@ -44,7 +44,7 @@ static AddInX xai_float(
 			_T("and <codeInline>DBL_MIN</codeInline>. ")
 			_T("The lead significant digit is zero as are all the exponent bits. ")
 		)
-/*		,
+		,
 		xml::element()
 			.content(xml::xlink(_T("NEXTAFTER")))
 			.content(xml::xlink(_T("FLOAT.BITS")))

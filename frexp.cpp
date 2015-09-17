@@ -14,10 +14,10 @@ static AddInX xai_frexp(
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Returns array {sig, exp} where 0.5 le sig lt 1 and x = sig*2^exp"))
 	.Documentation(
-		_T("The inverse of <codeInline>LDEXP</codeInline>. ")
+/*		_T("The inverse of <codeInline>LDEXP</codeInline>. ")
 		, // see also
 		xml::xlink("LDEXP")
-	)
+*/	)
 );
 xfp* WINAPI
 xll_frexp(double x)
