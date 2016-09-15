@@ -35,6 +35,7 @@ comes to summing series. E.g., how many terms of
 use when computing <math>exp(x)</math>? Stop when the terms are
 less than machine epsilon.
 
+<!--
 One might think the smallest number that can be represented in this
 way is therefore 0.5 * 2<markup><sup>-1022</sup></markup> = 1.112E-308,
 but one would be wrong.  This would correspond to all 11 exponent bits
@@ -48,3 +49,4 @@ But don't try to get Excel to display `NEXTAFTER` correctly.  You can
 use `FLOAT.BITS` to see that Excel is giving you the right IEEE float,
 or use `ULP` to verify the result is indeed one unit in the the last
 place after 0.
+-->
