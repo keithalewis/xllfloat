@@ -9,8 +9,8 @@
 using namespace xll;
 
 static AddInX xai_logb(
-	FunctionX(XLL_DOUBLEX, _T("?xll_logb"), _T("LOGB"))
-	.Arg(XLL_DOUBLEX, _T("x"), _T("is a floating point number "))
+	FunctionX(XLL_DOUBLE, _T("?xll_logb"), _T("LOGB"))
+	.Arg(XLL_DOUBLE, _T("x"), _T("is a floating point number "))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Return log of fabs(x) using radix of the machine's floating point arithmetic using _logb()"))
 	.Documentation(

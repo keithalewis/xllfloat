@@ -11,46 +11,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="finite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="chgsign.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="copysign.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="finite.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="float.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="fpclass.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="frexp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="functional.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="isnan.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ldexp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="limits.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="logb.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="nextafter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="popcount.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ulp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="float_bits.cpp">

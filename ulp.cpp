@@ -10,9 +10,9 @@
 using namespace xll;
 
 static AddInX xai_ulp(
-	FunctionX(XLL_DOUBLEX, _T("?xll_ulp"), _T("ULP"))
-	.Arg(XLL_DOUBLEX, _T("x"), _T("is a floating point number."))
-	.Arg(XLL_DOUBLEX, _T("y"), _T("is a floating point number. "))
+	FunctionX(XLL_DOUBLE, _T("?xll_ulp"), _T("ULP"))
+	.Arg(XLL_DOUBLE, _T("x"), _T("is a floating point number."))
+	.Arg(XLL_DOUBLE, _T("y"), _T("is a floating point number. "))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("The number of floating point values that can be exactly represented between x and y"))
 	.Documentation(
@@ -61,6 +61,6 @@ xll_test_ulp(void)
 }
 
 
-static Auto<OpenAfterX> xao_test_ulp(xll_test_ulp);
+//!!!static Auto<OpenAfter> xao_test_ulp(xll_test_ulp);
 
 #endif // _DEBUG

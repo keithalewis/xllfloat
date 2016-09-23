@@ -9,9 +9,9 @@
 using namespace xll;
 
 static AddInX xai_ldexp(
-	FunctionX(XLL_DOUBLEX, _T("?xll_ldexp"), _T("LDEXP"))
-	.Arg(XLL_DOUBLEX, _T("sig"), _T("is the significand"))
-	.Arg(XLL_LONGX, _T("exp"), _T("is the exponent "))
+	FunctionX(XLL_DOUBLE, _T("?xll_ldexp"), _T("LDEXP"))
+	.Arg(XLL_DOUBLE, _T("sig"), _T("is the significand"))
+	.Arg(XLL_LONG, _T("exp"), _T("is the exponent "))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Returns sig*2^exp using the C library function ldexp()"))
 	.Documentation(

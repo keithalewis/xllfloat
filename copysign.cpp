@@ -8,10 +8,10 @@
 
 using namespace xll;
 
-static AddInX xai_copysign(
-	FunctionX(XLL_DOUBLEX, _T("?xll_copysign"), _T("COPYSIGN"))
-	.Arg(XLL_DOUBLEX, _T("x"), _T("is a floating point number"))
-	.Arg(XLL_DOUBLEX, _T("y"), _T("is a floating point number "))
+static AddIn xai_copysign(
+	Function(XLL_DOUBLE, _T("?xll_copysign"), _T("COPYSIGN"))
+	.Arg(XLL_DOUBLE, _T("x"), _T("is a floating point number"))
+	.Arg(XLL_DOUBLE, _T("y"), _T("is a floating point number "))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Returns x with the sign of y by calling _copysign()"))
 	.Documentation(

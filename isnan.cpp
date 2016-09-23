@@ -9,8 +9,8 @@
 using namespace xll;
 
 static AddInX xai_isnan(
-	FunctionX(XLL_BOOLX, _T("?xll_isnan"), _T("ISNAN"))
-	.Arg(XLL_DOUBLEX, _T("x"), _T("is a floating point number "))
+	FunctionX(XLL_BOOL, _T("?xll_isnan"), _T("ISNAN"))
+	.Arg(XLL_DOUBLE, _T("x"), _T("is a floating point number "))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Determines whether the given double-precision floating-point value is Not a Number by calling _isnan()"))
 	.Documentation(
@@ -26,7 +26,7 @@ xll_isnan(double x)
 }
 
 static AddInX xai_nan(
-	FunctionX(XLL_FPX, _T("?xll_nan"), _T("NAN"))
+	FunctionX(XLL_FP, _T("?xll_nan"), _T("NAN"))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Returns a floating point number representing Not A Number."))
 	.Documentation(

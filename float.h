@@ -3,10 +3,14 @@
 #pragma once
 #include <cfloat>
 #include <cmath>
-//#define EXCEL12
 #include "xll/xll.h"
 
-#define CATEGORY _T("Float")
+#define _T(s) L##s
+#define CATEGORY L"Float"
 
-typedef xll::traits<XLOPERX>::xfp xfp;
-typedef xll::traits<XLOPERX>::xword xword;
+using xfp = _FP12;
+using xword = WORD;
+using ArgsX = xll::Args;
+using AddInX = xll::AddIn;
+using FunctionX = xll::Function;
+//using OPERX = xll::OPER12;

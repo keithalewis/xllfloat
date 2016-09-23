@@ -9,9 +9,9 @@
 using namespace xll;
 
 static AddInX xai_nextafter(
-	FunctionX(XLL_DOUBLEX, _T("?xll_nextafter"), _T("NEXTAFTER"))
-	.Arg(XLL_DOUBLEX, _T("x"), _T("is a floating point number"))
-	.Arg(XLL_LONGX, _T("n"), _T("is an integer "))
+	FunctionX(XLL_DOUBLE, _T("?xll_nextafter"), _T("NEXTAFTER"))
+	.Arg(XLL_DOUBLE, _T("x"), _T("is a floating point number"))
+	.Arg(XLL_LONG, _T("n"), _T("is an integer "))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Returns the n-th closest representable neighbor of x by calling _nextafter()"))
 	.Documentation(

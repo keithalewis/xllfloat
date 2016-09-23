@@ -20,7 +20,7 @@ static xcstr xav_sum[] = {
 	_T("is the second argument")
 };
 static AddInX xai_sum(
-	_T("?xll_sum"), XLL_DOUBLEX XLL_DOUBLEX XLL_DOUBLEX,
+	_T("?xll_sum"), XLL_DOUBLE XLL_DOUBLE XLL_DOUBLE,
 	_T("FUNCTION.ADD"), _T("Arg1, Arg2"),
 	CATEGORY, _T("Returns Arg1 + Arg2"),
 	dimof(xav_sum), xav_sum
@@ -38,7 +38,7 @@ static xcstr xav_difference[] = {
 	_T("is the second argument")
 };
 static AddInX xai_difference(
-	_T("?xll_difference"), XLL_DOUBLEX XLL_DOUBLEX XLL_DOUBLEX,
+	_T("?xll_difference"), XLL_DOUBLE XLL_DOUBLE XLL_DOUBLE,
 	_T("FUNCTION.SUB"), _T("Arg1, Arg2"),
 	CATEGORY, _T("Returns Arg1 - Arg2"),
 	dimof(xav_difference), xav_difference
@@ -56,7 +56,7 @@ static xcstr xav_product[] = {
 	_T("is the second argument")
 };
 static AddInX xai_product(
-	_T("?xll_product"), XLL_DOUBLEX XLL_DOUBLEX XLL_DOUBLEX,
+	_T("?xll_product"), XLL_DOUBLE XLL_DOUBLE XLL_DOUBLE,
 	_T("FUNCTION.MUL"), _T("Arg1, Arg2"),
 	CATEGORY, _T("Returns Arg1 * Arg2"),
 	dimof(xav_product), xav_product
@@ -74,7 +74,7 @@ static xcstr xav_quotient[] = {
 	_T("is the second argument")
 };
 static AddInX xai_quotient(
-	_T("?xll_quotient"), XLL_DOUBLEX XLL_DOUBLEX XLL_DOUBLEX,
+	_T("?xll_quotient"), XLL_DOUBLE XLL_DOUBLE XLL_DOUBLE,
 	_T("FUNCTION.DIV"), _T("Arg1, Arg2"),
 	CATEGORY, _T("Returns Arg1 / Arg2"),
 	dimof(xav_quotient), xav_quotient
@@ -94,7 +94,7 @@ static xcstr xav_fmod[] = {
 	_T("is the second argument")
 };
 static AddInX xai_fmod(
-	_T("?xll_fmod"), XLL_DOUBLEX XLL_DOUBLEX XLL_DOUBLEX,
+	_T("?xll_fmod"), XLL_DOUBLE XLL_DOUBLE XLL_DOUBLE,
 	_T("FUNCTION.FMOD"), _T("Arg1, Arg2"),
 	CATEGORY, _T("Returns fmod(Arg1, Arg2) where fmod is the C standard library function."),
 	dimof(xav_fmod), xav_fmod
@@ -111,7 +111,7 @@ static xcstr xav_mod[] = {
 	_T("is the second argument")
 };
 static AddInX xai_mod(
-	_T("?xll_mod"), XLL_LPOPERX XLL_LONGX XLL_LONGX,
+	_T("?xll_mod"), XLL_LPOPERX XLL_LONG XLL_LONG,
 	_T("FUNCTION.MOD"), _T("Arg1, Arg2"),
 	CATEGORY, _T("Returns Arg1 % Arg2. Not the same as Excel built-in MOD(Arg1, Arg2)"),
 	dimof(xav_mod), xav_mod
@@ -228,7 +228,7 @@ static xcstr xav_equals[] = {
 	_T("is the second argument")
 };
 static AddInX xai_equals(
-	_T("?xll_equals"), XLL_BOOLX XLL_DOUBLEX XLL_DOUBLEX,
+	_T("?xll_equals"), XLL_BOOL XLL_DOUBLE XLL_DOUBLE,
 	_T("FUNCTION.EQUALS"), _T("Arg1, Arg2"),
 	CATEGORY, _T("Returns true if Arg1 is equal to Arg2"),
 	dimof(xav_equals), xav_equals
@@ -245,7 +245,7 @@ static xcstr xav_identity[] = {
 	_T("is the argument to be returned")
 };
 static AddInX xai_identity(
-	_T("?xll_identity"), XLL_DOUBLEX XLL_DOUBLEX,
+	_T("?xll_identity"), XLL_DOUBLE XLL_DOUBLE,
 	_T("FUNCTION.IDENTITY"), _T("Arg"),
 	CATEGORY, _T("Returns Arg"),
 	dimof(xav_identity), xav_identity
@@ -263,7 +263,7 @@ static xcstr xav_equals[] = {
 	_T("is the second argument")
 };
 static AddInX xai_equals(
-	_T("?xll_equals"), XLL_BOOLX XLL_LPOPERX XLL_LPOPERX,
+	_T("?xll_equals"), XLL_BOOL XLL_LPOPERX XLL_LPOPERX,
 	_T("FUNCTION.EQUALS"), _T("Arg1, Arg2"),
 	CATEGORY, _T("Returns true if Arg1 is equal to Arg2"),
 	dimof(xav_equals), xav_equals

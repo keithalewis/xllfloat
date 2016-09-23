@@ -8,9 +8,9 @@
 
 using namespace xll;
 
-static AddInX xai_chgsign(
-	FunctionX(XLL_DOUBLE, _T("?xll_chgsign"), _T("CHGSIGN"))
-	.Arg(XLL_DOUBLEX, _T("x"), _T("is a floating point number "))
+static AddIn xai_chgsign(
+	Function(XLL_DOUBLE, _T("?xll_chgsign"), _T("CHGSIGN"))
+	.Arg(XLL_DOUBLE, _T("x"), _T("is a floating point number "))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Reverses the sign of x by calling _chgsign()"))
 	.Documentation(

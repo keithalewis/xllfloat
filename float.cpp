@@ -5,13 +5,14 @@
 #ifndef CATEGORY
 #define CATEGORY _T("Float")
 #endif
-
+#if 0
 using namespace xll;
 
+/*
 static AddInX xai_float(
 	DocumentX(CATEGORY)
 	.Documentation(
-/*		xml::Conceptual(_T("Floating point routines from &lt;cmath&gt; and various utilities."))
+		xml::Conceptual(_T("Floating point routines from &lt;cmath&gt; and various utilities."))
 		.section(_T("Introduction"),
 			_T("IEEE floating point numbers do some trickery to get ")
 			_T("an extra bit of precision in the mantissa. Every floating point ")
@@ -50,19 +51,19 @@ static AddInX xai_float(
 			.content(xml::xlink(_T("FLOAT.BITS")))
 			.content(xml::xlink(_T("ULP")))
 			.content(xml::externalLink(_T("http://support.microsoft.com/kb/78113"), _T("Floating-point arithmetic may give inaccurate results in Excel")))
-*/	)
+	)
 );
-
+*/
 //
 // floating point control
 //
 
 #ifdef _DEBUG
 
-static AddIn xai_clearfp(
-	"?xll_clearfp", XLL_LONG,
-	"CLEARFP", "",
-	CATEGORY, "Gets and clears the floating-point status word by calling _clearfp()"
+static AddIn xai_clearfp(Args(
+	L"?xll_clearfp", XLL_LONG,
+	L"CLEARFP", L"",
+	CATEGORY//!!!, "Gets and clears the floating-point status word by calling _clearfp()")
 );
 LONG WINAPI
 xll_clearfp()
@@ -73,9 +74,9 @@ xll_clearfp()
 }
 
 static AddIn xai_controlfp(
-	"?xll_controlfp", XLL_LONG XLL_LONG XLL_LONG,
-	"CONTROLFP", "new, mask",
-	CATEGORY, "Gets and sets the floating-point control word by calling _controlfp_s()"
+	L"?xll_controlfp", XLL_LONG XLL_LONG XLL_LONG,
+	L"CONTROLFP", L"new, mask",
+	CATEGORY//!!!, "Gets and sets the floating-point control word by calling _controlfp_s()"
 );
 LONG WINAPI
 xll_controlfp(LONG n, LONG m)
@@ -97,9 +98,9 @@ xll_controlfp(LONG n, LONG m)
 }
 
 static AddIn xai_statusfp(
-	"?xll_statusfp", XLL_LONG,
-	"STATUSFP", "",
-	CATEGORY, "Get the floating point status word by calling _statusfp()"
+	L"?xll_statusfp", XLL_LONG,
+	L"STATUSFP", L"",
+	CATEGORY//!!!, "Get the floating point status word by calling _statusfp()"
 );
 LONG WINAPI
 xll_statusfp()
@@ -110,15 +111,15 @@ xll_statusfp()
 }
 
 static AddIn xai_statusfp2(
-	"?xll_statusfp2", XLL_FP,
-	"STATUSFP2", "",
-	CATEGORY, "Get the x87 and SSE2 floating point status words by calling _statusfp2()"
+	L"?xll_statusfp2", XLL_FP,
+	L"STATUSFP2", L"",
+	CATEGORY //, L"Get the x87 and SSE2 floating point status words by calling _statusfp2()"
 );
 xfp* WINAPI
 xll_statusfp2()
 {
 #pragma XLLEXPORT
-	static xll::FP s(1, 2);
+	static xll::FP12 s(1, 2);
 	unsigned int s0, s1;
 
 	_statusfp2(&s0, &s1);
@@ -130,9 +131,9 @@ xll_statusfp2()
 }
 
 static AddIn xai_fpreset(
-	"?xll_fpreset", XLL_LONG,
-	"FPRESET", "",
-	CATEGORY, "Resets the floating-point package by calling _fpreset()"
+	L"?xll_fpreset", XLL_LONG,
+	L"FPRESET", L"",
+	CATEGORY//!!!, "Resets the floating-point package by calling _fpreset()"
 );
 LONG WINAPI
 xll_fpreset()
@@ -145,3 +146,4 @@ xll_fpreset()
 }
 
 #endif // _DEBUG
+#endif // 0

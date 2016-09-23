@@ -8,11 +8,11 @@
 
 using namespace xll;
 
-static AddInX xai_fpclass(
-	FunctionX(XLL_LONGX, _T("?xll_fpclass"), _T("FPCLASS"))
-	.Arg(XLL_DOUBLEX, _T("x"), _T("is a floating point number "))
+static AddInX xai_FP12class(
+	FunctionX(XLL_LONG, _T("?XLL_FPclass"), _T("FPCLASS"))
+	.Arg(XLL_DOUBLE, _T("x"), _T("is a floating point number "))
 	.Category(CATEGORY)
-	.FunctionHelp(_T("Determine the floating point class of x by calling _fpclass()"))
+	.FunctionHelp(_T("Determine the floating point class of x by calling _FP12class()"))
 	.Documentation(
 /*		_T("Uses the values from the <codeInline>FPCLASS_*</codeInline> enumeration")
 		,
@@ -20,7 +20,7 @@ static AddInX xai_fpclass(
 */	)
 );
 LONG WINAPI
-xll_fpclass(double x)
+XLL_FPclass(double x)
 {
 #pragma XLLEXPORT
 

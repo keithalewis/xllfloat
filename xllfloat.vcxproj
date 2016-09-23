@@ -14,21 +14,11 @@
     <ClCompile Include="chgsign.cpp" />
     <ClCompile Include="copysign.cpp" />
     <ClCompile Include="finite.cpp" />
-    <ClCompile Include="float.cpp" />
-    <ClCompile Include="float_bits.cpp" />
-    <ClCompile Include="fpclass.cpp" />
-    <ClCompile Include="frexp.cpp" />
-    <ClCompile Include="functional.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    <ClCompile Include="float.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="isnan.cpp" />
-    <ClCompile Include="ldexp.cpp" />
-    <ClCompile Include="limits.cpp" />
-    <ClCompile Include="logb.cpp" />
-    <ClCompile Include="nextafter.cpp" />
+    <ClCompile Include="float_bits.cpp" />
     <ClCompile Include="popcount.cpp" />
-    <ClCompile Include="ulp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="float.h" />
@@ -36,12 +26,12 @@
     <ClInclude Include="ulp.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\xll8\xll.vcxproj">
-      <Project>{8b15c18c-4c25-476c-abbd-88be05c35a3e}</Project>
-    </ProjectReference>
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="README.md" />
+    <ProjectReference Include="..\xll12\xll12.vcxproj">
+      <Project>{3563c165-8a72-4be5-b8af-fd5904c9030e}</Project>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A248713B-F9FA-4246-961E-E9FFC199D9EF}</ProjectGuid>
@@ -73,12 +63,12 @@
     <TargetExt>.xll</TargetExt>
     <LinkIncremental>true</LinkIncremental>
     <TargetName>float</TargetName>
-    <IncludePath>../xll8;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <IncludePath>../xll12;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <TargetExt>.xll</TargetExt>
     <TargetName>float</TargetName>
-    <IncludePath>../xll8;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <IncludePath>../xll12;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -88,7 +78,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <WarningLevel>Level4</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeader>
       </PrecompiledHeader>
@@ -114,7 +104,7 @@
       </DebugInformationFormat>
       <WarningLevel>Level4</WarningLevel>
       <Optimization>MaxSpeed</Optimization>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_SCL_SECURE_NO_WARNINGS;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader>
       </PrecompiledHeader>

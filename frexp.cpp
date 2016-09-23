@@ -9,8 +9,8 @@
 using namespace xll;
 
 static AddInX xai_frexp(
-	FunctionX(XLL_FPX, _T("?xll_frexp"), _T("FREXP"))
-	.Arg(XLL_DOUBLEX, _T("x"), _T("is a floating point number "))
+	FunctionX(XLL_FP, _T("?xll_frexp"), _T("FREXP"))
+	.Arg(XLL_DOUBLE, _T("x"), _T("is a floating point number "))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Returns array {sig, exp} where 0.5 le sig lt 1 and x = sig*2^exp"))
 	.Documentation(
@@ -23,7 +23,7 @@ xfp* WINAPI
 xll_frexp(double x)
 {
 #pragma XLLEXPORT
-	static xll::FP se(1, 2);
+	static xll::FP12 se(1, 2);
 	int exp;
 
 	se[0] = frexp(x, &exp);
