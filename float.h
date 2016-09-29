@@ -10,7 +10,4 @@
 
 using xfp = _FP12;
 using xword = WORD;
-using ArgsX = xll::Args;
-using AddInX = xll::AddIn;
-using FunctionX = xll::Function;
 //using OPERX = xll::OPER12;

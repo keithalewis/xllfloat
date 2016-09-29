@@ -18,6 +18,8 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="float_bits.cpp" />
+    <ClCompile Include="frexp.cpp" />
+    <ClCompile Include="limits.cpp" />
     <ClCompile Include="popcount.cpp" />
   </ItemGroup>
   <ItemGroup>

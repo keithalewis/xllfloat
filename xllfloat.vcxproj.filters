@@ -29,6 +29,12 @@
     <ClCompile Include="float_bits.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="frexp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="limits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ulp.h">
