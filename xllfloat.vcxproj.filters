@@ -35,6 +35,12 @@
     <ClCompile Include="limits.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="nextafter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ulp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ulp.h">

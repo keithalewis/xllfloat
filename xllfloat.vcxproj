@@ -20,7 +20,9 @@
     <ClCompile Include="float_bits.cpp" />
     <ClCompile Include="frexp.cpp" />
     <ClCompile Include="limits.cpp" />
+    <ClCompile Include="nextafter.cpp" />
     <ClCompile Include="popcount.cpp" />
+    <ClCompile Include="ulp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="float.h" />

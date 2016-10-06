@@ -19,6 +19,7 @@ static AddInX xai_float_constants(
 
 //#define XLL_ENUM_DOC XLL_ENUM
 // Integer
+/*
 XLL_ENUM_DOC(CHAR_BIT, CHAR_BIT, CATEGORY, "number of bits in a char [" STR(CHAR_BIT) "]", _T(""));
 XLL_ENUM_DOC(CHAR_MAX, CHAR_MAX, CATEGORY, "maximum char value [" STR(CHAR_MAX) "]", _T(""));
 XLL_ENUM_DOC(CHAR_MIN, CHAR_MIN, CATEGORY, "mimimum char value [" STR(CHAR_MIN) "]", _T(""));
@@ -72,3 +73,4 @@ XLL_ENUM_DOC(_FPCLASS_PINF, FPCLASS_PINF, CATEGORY, "positive infinity [" STR(_F
 XLL_ENUM_DOC(std::numeric_limits<double>::signaling_NaN(), SNAN, CATEGORY, "signaling NaN", _T(""));
 XLL_ENUM_DOC(std::numeric_limits<double>::quiet_NaN(), QNAN, CATEGORY, "quiet NaN", _T(""));
 XLL_ENUM_DOC(std::numeric_limits<double>::infinity(), PINF, CATEGORY, "positive infinity", _T(""));
+*/
