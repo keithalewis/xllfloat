@@ -2,6 +2,38 @@
 // Copyright (c) 2011 KALX, LLC. All rights reserved. No warranty is made.
 #include "popcount.h"
 #include "float.h"
+
+#ifdef _DEBUG
+#include <random>
+
+std::minstd_rand r;
+
+template<class I>
+I slow_popcount(I i)
+{
+    I count = 0;
+
+    for (I j = i; j; ++count)
+        j &= j - 1;
+
+    return count;
+}
+template<class I>
+void test_popcount(void)
+{
+    r.seed(std::random_device()());
+
+    for (int n = 0; n < 100; ++n) {
+        I i = r(); // uint32_t
+        I c0 = slow_popcount(i);
+        I c1 = popcount(i);
+        ensure (c0 == c1);
+    }
+}
+
+xll::test xll_test_popcount(test_popcount<uint32_t>);
+#endif // _DEBUG
+
 #if 0
 #ifndef CATEGORY
 #define CATEGORY _T("Float")
