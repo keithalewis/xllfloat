@@ -66,12 +66,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <TargetExt>.xll</TargetExt>
     <LinkIncremental>true</LinkIncremental>
-    <TargetName>float</TargetName>
+    <TargetName>xllfloat</TargetName>
     <IncludePath>../xll12;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <TargetExt>.xll</TargetExt>
-    <TargetName>float</TargetName>
+    <TargetName>xllfloat</TargetName>
     <IncludePath>../xll12;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
