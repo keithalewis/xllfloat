@@ -48,5 +48,5 @@ The smallest nonzero positve (denormalized) IEEE 64 bit number is
 really 2<markup><sup>-1073</sup></markup> = `_nextafter(0, 1)`.
 But don't try to get Excel to display `NEXTAFTER` correctly.  You can
 use `FLOAT.BITS` to see that Excel is giving you the right IEEE float,
-or use `ULP` to verify the result is indeed one unit in the the last
+or use `ULP` to verify the result is indeed one unit in the last
 place after 0.
