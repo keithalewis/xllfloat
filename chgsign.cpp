@@ -13,7 +13,7 @@ static AddIn xai_chgsign(
 	.Arg(XLL_DOUBLE, _T("x"), _T("is a floating point number "))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Reverses the sign of x by calling _chgsign()"))
-	.Documentation(
+	.Documentation(L""
 	)
 );
 double WINAPI

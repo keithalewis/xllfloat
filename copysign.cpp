@@ -14,7 +14,7 @@ static AddIn xai_copysign(
 	.Arg(XLL_DOUBLE, _T("y"), _T("is a floating point number "))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Returns x with the sign of y by calling _copysign()"))
-	.Documentation(
+	.Documentation(L""
 	)
 );
 double WINAPI
