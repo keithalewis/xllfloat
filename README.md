@@ -35,15 +35,6 @@ comes to summing series. E.g., how many terms of
 use when computing <math>exp(x)</math>? Stop when the terms are
 less than machine epsilon.
 
-??? IS THIS CORRECT ???
-
-One might think the smallest number that can be represented in this
-way is therefore 2<sup>-1021</sup> = 1.112E-308,
-but one would be wrong.  This would correspond to all 11 exponent bits
-being zero, but that has special meaning in IEEE floats . The smallest
-`normalized` number is in fact 2<markup><sup>-102?</sup></markup>
-= 2.225E-308 = `DBL_MIN`.
-
 The smallest nonzero positve (denormalized) IEEE 64 bit number is
 really 2<markup><sup>-1073</sup></markup> = `_nextafter(0, 1)`.
 But don't try to get Excel to display `NEXTAFTER` correctly.  You can
