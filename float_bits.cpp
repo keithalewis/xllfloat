@@ -13,7 +13,7 @@ static AddIn xai_float_bits(
 	.Arg(XLL_DOUBLE, L"Num", L"is a floating point number ")
 	.Category(CATEGORY)
 	.FunctionHelp(L"Returns 1 x 64 array of the bits of the floating point Number")
-	.Documentation(
+	.Documentation(LR"()"
 	
 	)
 );
@@ -37,7 +37,7 @@ static AddIn xai_bits_float(
 	.Arg(XLL_FP, L"Bits", L"is an array of 64 bits ")
 	.Category(CATEGORY)
 	.FunctionHelp(L"Converts array of 64 bits to a floating point Number")
-	.Documentation(
+	.Documentation(LR"()"
 	
 	)
 );
