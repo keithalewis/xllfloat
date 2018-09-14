@@ -20,9 +20,6 @@
     <ClCompile Include="copysign.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="float.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="popcount.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -41,6 +38,18 @@
     <ClCompile Include="ulp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="xllfloat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="polynomial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ldexp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ulp.h">
@@ -49,11 +58,12 @@
     <ClInclude Include="popcount.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="float.h">
+    <ClInclude Include="xllfloat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
+    <None Include="Debug\hw2.xlsx" />
   </ItemGroup>
 </Project>

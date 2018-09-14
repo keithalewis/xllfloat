@@ -1,7 +1,7 @@
 // popcount.cpp - count nonzero bits
 // Copyright (c) 2011 KALX, LLC. All rights reserved. No warranty is made.
 #include "popcount.h"
-#include "float.h"
+#include "xllfloat.h"
 
 #ifdef _DEBUG
 #include <random>

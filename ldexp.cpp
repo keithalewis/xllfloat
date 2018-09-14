@@ -1,6 +1,6 @@
 // ldexp.c - calls corresponding C library function
 // Copyright (c) 2011 KALX, LLC. All rights reserved. No warranty is made.
-#include "float.h"
+#include "xllfloat.h"
 
 #ifndef CATEGORY
 #define CATEGORY "Float"
@@ -14,7 +14,7 @@ static AddInX xai_ldexp(
 	.Arg(XLL_LONG, _T("exp"), _T("is the exponent "))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Returns sig*2^exp using the C library function ldexp()"))
-	.Documentation(
+	.Documentation(LR"()"
 /*		_T("The inverse of <codeInline>FREXP</codeInline>. ")
 		, // see also
 		xml::xlink("FREXP")

@@ -1,6 +1,6 @@
 // nextafter.cpp - IEEE recommended functions.
 // Copyright (c) 2011 KALX, LLC. All rights reserved. No warranty is made.
-#include "float.h"
+#include "xllfloat.h"
 
 #ifndef CATEGORY
 #define CATEGORY _T("Float")

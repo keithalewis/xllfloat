@@ -14,7 +14,10 @@
     <ClCompile Include="chgsign.cpp" />
     <ClCompile Include="copysign.cpp" />
     <ClCompile Include="finite.cpp" />
-    <ClCompile Include="float.cpp">
+    <ClCompile Include="ldexp.cpp" />
+    <ClCompile Include="polynomial.cpp" />
+    <ClCompile Include="reverse.cpp" />
+    <ClCompile Include="xllfloat.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="float_bits.cpp" />
@@ -25,11 +28,12 @@
     <ClCompile Include="ulp.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="float.h" />
+    <ClInclude Include="xllfloat.h" />
     <ClInclude Include="popcount.h" />
     <ClInclude Include="ulp.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Debug\hw2.xlsx" />
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>

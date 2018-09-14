@@ -1,6 +1,6 @@
 // frexp.c - calls corresponding C library function
 // Copyright (c) 2011 KALX, LLC. All rights reserved. No warranty is made.
-#include "float.h"
+#include "xllfloat.h"
 
 #ifndef CATEGORY
 #define CATEGORY "Float"

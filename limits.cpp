@@ -1,6 +1,6 @@
 // limits.cpp - numerical limits
 // Copyright (c) 2011 KALX, LLC. All rights reserved. No warranty is made.
-#include "float.h"
+#include "xllfloat.h"
 
 #undef CATEGORY
 #define CATEGORY L"Float Limits"

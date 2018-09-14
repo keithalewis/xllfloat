@@ -1,7 +1,7 @@
 // ulp.cpp - units in the last place
 // Copyright (c) 2011 KALX, LLC. All rights reserved. No warranty is made.
+#include "xllfloat.h"
 #include "ulp.h"
-#include "float.h"
 
 #ifndef CATEGORY
 #define CATEGORY "Float"
@@ -36,11 +36,11 @@ template<class T>
 void
 xll_test_nextafter(void)
 {
-	T x = 1.23, y;
+    T x = T(1.23), y;
 		
-	y = _nextafter(x, x + 1);
+	y = nextafter(x, x + 1);
 	ensure (1 == ulp(y, x));
-	y = _nextafter(x, x - 1);
+	y = nextafter(x, x - 1);
 	ensure (-1 == ulp(y, x));
 }
 
@@ -48,7 +48,7 @@ int
 xll_test_ulp(void)
 {
 	try {
-//		xll_test_nextafter<float>(); // no _nextafter for floats
+		xll_test_nextafter<float>();
 		xll_test_nextafter<double>();
 	}
 	catch (const std::exception& ex) {
@@ -60,7 +60,6 @@ xll_test_ulp(void)
 	return 1;
 }
 
-
-//!!!static Auto<OpenAfter> xao_test_ulp(xll_test_ulp);
+static Auto<OpenAfter> xao_test_ulp(xll_test_ulp);
 
 #endif // _DEBUG

@@ -1,4 +1,4 @@
-// float.h - common header for Float category
+// xllfloat.h - common header for Float category
 // Copyright (c) 2011 KALX, LLC. All rights reserved. No warranty is made.
 #pragma once
 #include <cfloat>
