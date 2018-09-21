@@ -11,13 +11,13 @@ number is represented as
 > f = &plusmn; sig &times; 2<sup>exp</sup>,
 
 where the significand satisfies <math>1 &le; sig &lt; 2</math>.
-The function `ldexp(f)` 
+The function `frexp(f)` 
 returns the <math>sig</math> and <math>exp</math> of <math>f</math>.
 For IEEE 64 bit floats, 
 the sign is 1 bit, the exponent is 11 bits, and the mantissa 
 is 53 bits. Note 1 + 11 + 53 = 65, which is 1 greater than 64 
 for all values of 1. To convert the exponent bits, take the 
-11 bit base 2 number and subtract the bias = `DBL_MIN_EXP` = 1021. 
+11 bit base 2 number and subtract the bias = 1023. 
 To convert the mantissa, tack a 1 on the front of the 52 mantissa bits 
 then put a base 2 decimal point in front. 
 
