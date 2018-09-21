@@ -11,7 +11,7 @@ number is represented as
 > f = &plusmn; sig &times; 2<sup>exp</sup>,
 
 where the significand satisfies <math>1 &le; sig &lt; 2</math>.
-The function `_frexp(f)` 
+The function `ldexp(f)` 
 returns the <math>sig</math> and <math>exp</math> of <math>f</math>.
 For IEEE 64 bit floats, 
 the sign is 1 bit, the exponent is 11 bits, and the mantissa 
