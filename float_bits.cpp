@@ -17,7 +17,7 @@ static AddIn xai_float_bits(
 	
 	)
 );
-xfp* WINAPI
+_FP12* WINAPI
 xll_float_bits(double x)
 {
 #pragma XLLEXPORT
@@ -58,7 +58,7 @@ xll_bits_float(const _FP12* pb)
 	}
 
 	u.l = 0;
-	for (xword i = 0; i < 64; ++i)
+	for (WORD i = 0; i < 64; ++i)
 		if (pb->array[63 - i] != 0)
 			u.l |= (1ll<<i);
 

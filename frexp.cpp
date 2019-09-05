@@ -19,7 +19,7 @@ static AddInX xai_frexp(
 		xml::xlink("LDEXP")
 */	)
 );
-xfp* WINAPI
+_FP12* WINAPI
 xll_frexp(double x)
 {
 #pragma XLLEXPORT

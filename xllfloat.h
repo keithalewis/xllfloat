@@ -1,13 +1,15 @@
 // xllfloat.h - common header for Float category
-// Copyright (c) 2011 KALX, LLC. All rights reserved. No warranty is made.
+// Copyright (c) 2011-2019 KALX, LLC. All rights reserved. No warranty is made.
 #pragma once
 #include <cfloat>
 #include <cmath>
 #include "xll12/xll/xll.h"
 
-#define _T(s) L##s
+#ifndef CATEGORY
 #define CATEGORY L"Float"
+#endif
 
-using xfp = _FP12;
-using xword = WORD;
-//using OPERX = xll::OPER12;
+#ifdef _T
+#undef _T
+#endif
+#define _T(s) L##s

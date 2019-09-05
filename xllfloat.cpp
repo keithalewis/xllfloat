@@ -115,7 +115,7 @@ static AddIn xai_statusfp2(
 	L"STATUSFP2", L"",
 	CATEGORY //, L"Get the x87 and SSE2 floating point status words by calling _statusfp2()"
 );
-xfp* WINAPI
+_FP12* WINAPI
 xll_statusfp2()
 {
 #pragma XLLEXPORT
