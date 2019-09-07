@@ -14,11 +14,7 @@ static AddInX xai_ldexp(
 	.Arg(XLL_LONG, _T("exp"), _T("is the exponent "))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Returns sig*2^exp using the C library function ldexp()"))
-	.Documentation(LR"()"
-/*		_T("The inverse of <codeInline>FREXP</codeInline>. ")
-		, // see also
-		xml::xlink("FREXP")
-*/	)
+	.Documentation(LR"("This function is the inverse of <codeInline>FREXP</codeInline>.)")
 );
 double WINAPI
 xll_ldexp(double sig, LONG exp)

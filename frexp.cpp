@@ -13,11 +13,7 @@ static AddInX xai_frexp(
 	.Arg(XLL_DOUBLE, _T("x"), _T("is a floating point number "))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Returns array {sig, exp} where 0.5 le sig lt 1 and x = sig*2^exp"))
-	.Documentation(LR"()"
-/*		_T("The inverse of <codeInline>LDEXP</codeInline>. ")
-		, // see also
-		xml::xlink("LDEXP")
-*/	)
+	.Documentation(LR"(The inverse of <codeInline>LDEXP</codeInline>.)")
 );
 _FP12* WINAPI
 xll_frexp(double x)

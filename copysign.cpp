@@ -14,8 +14,13 @@ static AddIn xai_copysign(
 	.Arg(XLL_DOUBLE, _T("y"), _T("is a floating point number "))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Returns x with the sign of y by calling _copysign()"))
-	.Documentation(LR"()"
-	)
+	.Documentation(LR"(
+        The copysign functions return a floating-point value that combines the magnitude of
+        <codeInline>x</codeInline> and the sign of <codeInline>y</codeInline>. 
+        There is no error return.
+        Note <codeInline>x == copysign(x,y)</codeInline> is true if 
+        <codeInline>x</codeInline> and <codeInline>y</codeInline> have the same sign.
+    )")
 );
 double WINAPI
 xll_copysign(double x, double y)

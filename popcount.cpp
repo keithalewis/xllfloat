@@ -34,55 +34,11 @@ void test_popcount(void)
 xll::test xll_test_popcount(test_popcount<uint32_t>);
 #endif // _DEBUG
 
-#if 0
 #ifndef CATEGORY
 #define CATEGORY _T("Float")
 #endif
 
 using namespace xll;
-
-static AddIn xai_popcount0(
-	Function(XLL_LONG, _T("?xll_popcount0"), _T("POPCOUNT0"))
-	.Arg(XLL_LONG, _T("Integer"), _T("is an integer "))
-	.Category(CATEGORY)
-	.FunctionHelp(_T("Hamming weight of Integer best for small number of 1 bits"))
-);
-LONG WINAPI
-xll_popcount0(LONG l)
-{
-#pragma XLLEXPORT
-
-	return popcount0<LONG>(l);
-}
-
-static AddIn xai_popcount1(
-	Function(XLL_LONG, _T("?xll_popcount1"), _T("POPCOUNT1"))
-	.Arg(XLL_LONG, _T("Integer"), _T("is an integer "))
-	.Category(CATEGORY)
-	.FunctionHelp(_T("Hamming weight of Integer best for small number of 0 bits"))
-);
-LONG WINAPI
-xll_popcount1(LONG l)
-{
-#pragma XLLEXPORT
-
-	return popcount1<LONG>(l);
-}
-
-static AddIn xai_popcountl(
-	Function(XLL_LONG, _T("?xll_popcountl"), _T("POPCOUNT.INT"))
-	.Arg(XLL_LONG, _T("Integer"), _T("is an integer "))
-	.Category(CATEGORY)
-	.FunctionHelp(_T("Returns the Hamming weight of 32-bit integer Int"))
-	.Documentation(_T("The Hamming weight is the number of 1 bits in the base 2 representation"))
-);
-LONG WINAPI
-xll_popcountl(LONG l)
-{
-#pragma XLLEXPORT
-
-	return popcount(l);
-}
 
 static AddIn xai_popcount(
 	Function(XLL_LONG, _T("?xll_popcount"), _T("POPCOUNT.NUM"))
@@ -96,6 +52,11 @@ xll_popcount(double x)
 {
 #pragma XLLEXPORT
 
-	return popcount(x);
+    union {
+        int64_t l;
+        double x;
+    } u;
+    u.x = x;
+
+	return static_cast<LONG>(popcount(u.l));
 }
-#endif // 0

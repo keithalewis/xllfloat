@@ -13,8 +13,10 @@ static AddIn xai_finite(
 	.Arg(XLL_DOUBLE, _T("x"), _T("is a floating point number "))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Determines whether the given double-precision floating-point value is finite by calling _finite()"))
-	.Documentation(LR"()"
-	)
+	.Documentation(LR"(
+        This function returns TRUE if x is either a normal or subnormal finite value. 
+        It returns FALSE if the argument is infinite or a NaN. 
+    )")
 );
 BOOL WINAPI
 xll_finite(double x)
