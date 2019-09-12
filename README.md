@@ -60,7 +60,7 @@ and the exponent is -1022.
 ### Not A Number
 
 If all the exponent bits are 1 then the number is a NaN:
-not a number. There are 2 &times; 2^52 NaNs. Any arithmetical
+not a number. There are 2 &times; 2<sup>52</sup> NaNs. Any arithmetical
 computation with a NaN results in a NaN. It is also the case
 no two NaN are equal. In fact `x != x` is a way to test if
 `x` is a NaN.
