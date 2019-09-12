@@ -1,6 +1,6 @@
 # Floating Point Numbers
 
-Floating point routines from <cmath> and various utilities.
+Floating point routines from &lt;cmath&gt; and various utilities.
 
 ## Introduction
 
