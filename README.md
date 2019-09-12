@@ -5,21 +5,22 @@ Floating point routines from &lt;cmath&gt; and various utilities.
 ## Introduction
 
 IEEE floating point numbers do some trickery to get 
-an extra bit of precision in the mantissa. Every floating point 
+an extra bit of precision in the significand (aka mantissa). Every floating point 
 number is represented as
 
 > f = &plusmn; sig &times; 2<sup>exp</sup>,
 
 where the significand satisfies <math>1 &le; sig &lt; 2</math>.
 The function `frexp(f)` 
-returns the <math>sig</math> and <math>exp</math> of <math>f</math>.
+returns the <math>sig/2</math> and <math>exp+1</math> of <math>f</math>.
 For IEEE 64 bit floats, 
-the sign is 1 bit, the exponent is 11 bits, and the mantissa 
-is 53 bits. Note 1 + 11 + 53 = 65, which is 1 greater than 64 
-for all values of 1. To convert the exponent bits, take the 
+the sign is 1 bit, he exponent is 11 bits, and the mantissa 
+is 53 bits. Note 1 + 11 + 53 = 65, which is 1 greater than 64.
+The sign bit is 0 for positive and 1 for negative.
+To convert the exponent bits, take the 
 11 bit base 2 number and subtract the bias = 1023. 
-To convert the mantissa, tack a 1 on the front of the 52 mantissa bits 
-then put a base 2 decimal point in front. 
+To convert the mantissa, put a base 2 decimal point in front and
+tack a 1 on the front of the 52 mantissa bits. 
 
 ## Machine Epsilon
 
