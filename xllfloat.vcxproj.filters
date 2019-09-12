@@ -9,6 +9,9 @@
       <UniqueIdentifier>{2315b8a0-193c-4423-943b-cc5f0cf98a3a}</UniqueIdentifier>
       <Extensions>h</Extensions>
     </Filter>
+    <Filter Include="hw2">
+      <UniqueIdentifier>{85c69cf2-2c50-4b36-af27-3b1d970c64df}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="finite.cpp">
@@ -49,6 +52,135 @@
     </ClCompile>
     <ClCompile Include="ldexp.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bjs2205.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="cr2771.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="ct2966.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="cz2573.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="dy2402.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="fq2145.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="jh4205.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="jl5371.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="jl5488.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="jrk2177.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="js5178.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="jz3198.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="lz2735.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="ml4403.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="mv2705.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="mw3302.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="nn2404.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="rl3107.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="sf3000.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="sm4723.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="tk2749.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="ts3157.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="tvp2110.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="tw2691.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="tz2446.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="wm2404.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="xh2443.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="xl2940.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="xw2608.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="yc3679.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="yc3744.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="yg2631.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="yg2707.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="yl4419.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="yz3632.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="zf2209.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="zl2776.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="fy2214.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="ge2247.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="gw2376.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="hz2652.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="jc5302.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="kal2222.cpp">
+      <Filter>hw2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

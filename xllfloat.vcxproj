@@ -19,12 +19,46 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="bjs2205.cpp" />
     <ClCompile Include="chgsign.cpp" />
     <ClCompile Include="copysign.cpp" />
+    <ClCompile Include="cr2771.cpp" />
+    <ClCompile Include="ct2966.cpp" />
+    <ClCompile Include="cz2573.cpp" />
+    <ClCompile Include="dy2402.cpp" />
     <ClCompile Include="finite.cpp" />
+    <ClCompile Include="fq2145.cpp" />
+    <ClCompile Include="fy2214.cpp" />
+    <ClCompile Include="ge2247.cpp" />
+    <ClCompile Include="gw2376.cpp" />
+    <ClCompile Include="hz2652.cpp" />
+    <ClCompile Include="jc5302.cpp" />
+    <ClCompile Include="jh4205.cpp" />
+    <ClCompile Include="jl5371.cpp" />
+    <ClCompile Include="jl5488.cpp" />
+    <ClCompile Include="jrk2177.cpp" />
+    <ClCompile Include="js5178.cpp" />
+    <ClCompile Include="jz3198.cpp" />
+    <ClCompile Include="kal2222.cpp" />
     <ClCompile Include="ldexp.cpp" />
+    <ClCompile Include="lz2735.cpp" />
+    <ClCompile Include="ml4403.cpp" />
+    <ClCompile Include="mv2705.cpp" />
+    <ClCompile Include="mw3302.cpp" />
+    <ClCompile Include="nn2404.cpp" />
     <ClCompile Include="polynomial.cpp" />
     <ClCompile Include="reverse.cpp" />
+    <ClCompile Include="rl3107.cpp" />
+    <ClCompile Include="sf3000.cpp" />
+    <ClCompile Include="sm4723.cpp" />
+    <ClCompile Include="tk2749.cpp" />
+    <ClCompile Include="ts3157.cpp" />
+    <ClCompile Include="tvp2110.cpp" />
+    <ClCompile Include="tw2691.cpp" />
+    <ClCompile Include="tz2446.cpp" />
+    <ClCompile Include="wm2404.cpp" />
+    <ClCompile Include="xh2443.cpp" />
+    <ClCompile Include="xl2940.cpp" />
     <ClCompile Include="xllfloat.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
@@ -35,6 +69,15 @@
     <ClCompile Include="nextafter.cpp" />
     <ClCompile Include="popcount.cpp" />
     <ClCompile Include="ulp.cpp" />
+    <ClCompile Include="xw2608.cpp" />
+    <ClCompile Include="yc3679.cpp" />
+    <ClCompile Include="yc3744.cpp" />
+    <ClCompile Include="yg2631.cpp" />
+    <ClCompile Include="yg2707.cpp" />
+    <ClCompile Include="yl4419.cpp" />
+    <ClCompile Include="yz3632.cpp" />
+    <ClCompile Include="zf2209.cpp" />
+    <ClCompile Include="zl2776.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="xllfloat.h" />
