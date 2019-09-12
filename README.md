@@ -13,6 +13,9 @@ number is represented as
 where the significand satisfies <math>1 &le; sig &lt; 2</math>.
 The function `frexp(f)` 
 returns the <math>sig/2</math> and <math>exp+1</math> of <math>f</math>.
+The function `ldexp(s,e)` converts the significant and exponent
+back to the original floating point number.
+
 For IEEE 64 bit floats, 
 the sign is 1 bit, he exponent is 11 bits, and the mantissa 
 is 53 bits. Note 1 + 11 + 53 = 65, which is 1 greater than 64.
@@ -22,7 +25,7 @@ To convert the exponent bits, take the
 To convert the mantissa, put a base 2 decimal point in front and
 tack a 1 on the front of the 52 mantissa bits. 
 
-## Machine Epsilon
+### Machine Epsilon
 
 Unlike the mathematical real numbers we can have <math>1 + x =
 1</math> with <math>x&ne;0<math>.  The smallest such positive
@@ -36,9 +39,44 @@ comes to summing series. E.g., how many terms of
 use when computing <math>exp(x)</math>? Stop when the terms are
 less than machine epsilon.
 
-The smallest nonzero positve (denormalized) IEEE 64 bit number is
-really 2<markup><sup>-1073</sup></markup> = `_nextafter(0, 1)`.
-But don't try to get Excel to display `NEXTAFTER` correctly.  You can
-use `FLOAT.BITS` to see that Excel is giving you the right IEEE float,
-or use `ULP` to verify the result is indeed one unit in the the last
-place after 0.
+## Special Numbers
+
+Certain bit patterns have special meaning.
+
+### Positive and Negative Zero
+
+If all the bits are 0 then corresponding floating point is 0.
+If the first bit is 1 then the floating point number is -0
+which is not equal to 0.
+
+### Denormal Numbers
+
+There are many numbers less than machine epsilon that are not 0,
+for example 2<sup>-52</sup> to 2<sup>-1022</sup>. There are even
+smaller non zero floating point numbers. If all exponent bits
+are 0 then the significand no longer has the implicit 1 prefixed.
+and the exponent is -1022.
+
+### Not A Number
+
+If all the exponent bits are 1 then the number is a NaN:
+not a number. There are 2 &times; 2^52 NaNs. Any arithmetical
+computation with a NaN results in a NaN. It is also the case
+no two NaN are equal. In fact `x != x` is a way to test if
+`x` is a NaN.
+
+### Infinity
+
+If all the exponent bits are 1 and all the significant bits
+are 0 then the number is infinity. There is also a negative infinity.
+
+### Units in the Last Place
+
+One handy feature of the IEEE representation is the the order of
+the underlying bits, interpreted as a 64 bit integer, is the same
+as the ordering of the corrresponding floats. Units in the last
+place is the number of such integer values between two floats (plus 1).
+
+## References
+
+https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/
