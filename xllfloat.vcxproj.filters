@@ -179,7 +179,7 @@
     <ClCompile Include="jc5302.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
-    <ClCompile Include="kal2222.cpp">
+    <ClCompile Include="xllremquo.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
   </ItemGroup>
