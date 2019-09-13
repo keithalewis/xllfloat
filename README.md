@@ -67,7 +67,7 @@ no two NaN are equal. In fact `x != x` is a way to test if
 
 ### Infinity
 
-If all the exponent bits are 1 and all the significant bits
+If all the exponent bits are 1 and all the significand bits
 are 0 then the number is infinity. There is also a negative infinity.
 
 ### Units in the Last Place
