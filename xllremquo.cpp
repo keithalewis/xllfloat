@@ -43,6 +43,7 @@ xll::test test_xll_remquo([]() {
 	presult = xll_remquo(numer, denom);
 	ensure(presult->array[0] == -1);
 	ensure(presult->array[1] == -3);
+	ensure(0);
 	});
 
 #endif // _DEBUG
