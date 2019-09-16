@@ -161,9 +161,6 @@
     <ClCompile Include="zf2209.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
-    <ClCompile Include="zl2776.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
     <ClCompile Include="fy2214.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
@@ -180,6 +177,9 @@
       <Filter>hw2</Filter>
     </ClCompile>
     <ClCompile Include="xllremquo.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="xllcbrt.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
   </ItemGroup>
