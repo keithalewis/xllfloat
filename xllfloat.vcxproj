@@ -48,7 +48,7 @@
     <ClCompile Include="nn2404.cpp" />
     <ClCompile Include="polynomial.cpp" />
     <ClCompile Include="reverse.cpp" />
-    <ClCompile Include="rl3107.cpp" />
+    <ClCompile Include="xllsin.cpp" />
     <ClCompile Include="sf3000.cpp" />
     <ClCompile Include="sm4723.cpp" />
     <ClCompile Include="tk2749.cpp" />

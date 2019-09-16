@@ -104,9 +104,6 @@
     <ClCompile Include="nn2404.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
-    <ClCompile Include="rl3107.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
     <ClCompile Include="sf3000.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
@@ -180,6 +177,9 @@
       <Filter>hw2</Filter>
     </ClCompile>
     <ClCompile Include="kal2222.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="xllsin.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
   </ItemGroup>
