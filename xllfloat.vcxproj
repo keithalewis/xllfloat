@@ -57,7 +57,7 @@
     <ClCompile Include="tw2691.cpp" />
     <ClCompile Include="tz2446.cpp" />
     <ClCompile Include="wm2404.cpp" />
-    <ClCompile Include="xh2443.cpp" />
+    <ClCompile Include="xllexpm1.cpp" />
     <ClCompile Include="xl2940.cpp" />
     <ClCompile Include="xllfloat.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>

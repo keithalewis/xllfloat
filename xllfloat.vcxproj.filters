@@ -131,9 +131,6 @@
     <ClCompile Include="wm2404.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
-    <ClCompile Include="xh2443.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
     <ClCompile Include="xl2940.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
@@ -180,6 +177,9 @@
       <Filter>hw2</Filter>
     </ClCompile>
     <ClCompile Include="xllremquo.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="xllexpm1.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
   </ItemGroup>
