@@ -52,7 +52,7 @@
     <ClCompile Include="sf3000.cpp" />
     <ClCompile Include="sm4723.cpp" />
     <ClCompile Include="tk2749.cpp" />
-    <ClCompile Include="ts3157.cpp" />
+    <ClCompile Include="xlltanh.cpp" />
     <ClCompile Include="tvp2110.cpp" />
     <ClCompile Include="tw2691.cpp" />
     <ClCompile Include="tz2446.cpp" />
