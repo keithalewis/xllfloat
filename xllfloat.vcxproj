@@ -71,7 +71,7 @@
     <ClCompile Include="ulp.cpp" />
     <ClCompile Include="xw2608.cpp" />
     <ClCompile Include="yc3679.cpp" />
-    <ClCompile Include="yc3744.cpp" />
+    <ClCompile Include="xllfabs.cpp" />
     <ClCompile Include="yg2631.cpp" />
     <ClCompile Include="yg2707.cpp" />
     <ClCompile Include="yl4419.cpp" />
