@@ -2,21 +2,22 @@
 // computes hyperbolic cosine (ch(x))
 // Rename this file to xllcosh.cpp and implement XLL.COSH which calls cosh
 // Add documentation and a test function that runs in debug mode.
-#include "xllfloat.h"
+#include "xllfloat.h" // this includes the xllfloat.h header file that was given to us that makes the declarations all of our .cpp files will use
 
-#ifndef CATEGORY
-#define CATEGORY "Float"
+#ifndef CATEGORY // checks whether the token "CATEGORY" has been defined earlier 
+#define CATEGORY "Float" // if not defines CATEGORY as float
 #endif
 
-using namespace xll;
+using namespace xll; // uses the xll namespace to eliminate neccessity of writing xll::function
 
-static AddInX xai_cosh(
+static AddInX xai_cosh( // create a static function which 
 	FunctionX(XLL_FP, _T("?xll_cosh"), _T("XLL.COSH"))
 	.Arg(XLL_DOUBLE, _T("x"), _T("is x within cosh(x)."), _T("0"))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Computes the hyperbolic cosine."))
 	.Documentation(LR"(Computes the hyperbolic cosine.)")
 );
+
 _FP12* WINAPI
 xll_cosh(double x)
 {
