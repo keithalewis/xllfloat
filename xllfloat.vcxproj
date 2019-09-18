@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="bjs2205.cpp" />
+    <ClCompile Include="xllcosh.cpp" />
     <ClCompile Include="chgsign.cpp" />
     <ClCompile Include="copysign.cpp" />
     <ClCompile Include="cr2771.cpp" />

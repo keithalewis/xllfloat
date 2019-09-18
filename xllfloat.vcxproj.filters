@@ -53,9 +53,6 @@
     <ClCompile Include="ldexp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bjs2205.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
     <ClCompile Include="cr2771.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
@@ -180,6 +177,9 @@
       <Filter>hw2</Filter>
     </ClCompile>
     <ClCompile Include="xllremquo.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="xllcosh.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
   </ItemGroup>
