@@ -32,7 +32,7 @@
     <ClCompile Include="ge2247.cpp" />
     <ClCompile Include="gw2376.cpp" />
     <ClCompile Include="hz2652.cpp" />
-    <ClCompile Include="jc5302.cpp" />
+    <ClCompile Include="xllfmod.cpp" />
     <ClCompile Include="jh4205.cpp" />
     <ClCompile Include="jl5371.cpp" />
     <ClCompile Include="jl5488.cpp" />

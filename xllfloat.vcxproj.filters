@@ -176,10 +176,10 @@
     <ClCompile Include="hz2652.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
-    <ClCompile Include="jc5302.cpp">
+    <ClCompile Include="kal2222.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
-    <ClCompile Include="kal2222.cpp">
+    <ClCompile Include="xllfmod.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
   </ItemGroup>
