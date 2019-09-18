@@ -182,6 +182,9 @@
     <ClCompile Include="xllremquo.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
+    <ClCompile Include="xllsinh.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ulp.h">
