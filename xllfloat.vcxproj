@@ -30,7 +30,7 @@
     <ClCompile Include="fq2145.cpp" />
     <ClCompile Include="fy2214.cpp" />
     <ClCompile Include="ge2247.cpp" />
-    <ClCompile Include="gw2376.cpp" />
+    <ClCompile Include="xllerf.cpp" />
     <ClCompile Include="hz2652.cpp" />
     <ClCompile Include="jc5302.cpp" />
     <ClCompile Include="jh4205.cpp" />
