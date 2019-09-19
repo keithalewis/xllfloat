@@ -22,7 +22,7 @@ AddIn xai_cbrt(
 double WINAPI
 xll_cbrt(double x)
 {
-#pragma XLLEXPORT
+#pragma XLLEXPORT 
 	return std::cbrt(x);
 }
 
