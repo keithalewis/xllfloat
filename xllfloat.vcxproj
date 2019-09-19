@@ -55,7 +55,7 @@
     <ClCompile Include="ts3157.cpp" />
     <ClCompile Include="tvp2110.cpp" />
     <ClCompile Include="tw2691.cpp" />
-    <ClCompile Include="tz2446.cpp" />
+    <ClCompile Include="xllround.cpp" />
     <ClCompile Include="wm2404.cpp" />
     <ClCompile Include="xh2443.cpp" />
     <ClCompile Include="xl2940.cpp" />
