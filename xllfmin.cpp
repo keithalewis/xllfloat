@@ -14,8 +14,8 @@ using namespace xll;
 
 static AddInX xai_fmin(
 	FunctionX(XLL_FP, _T("?xll_fmin"), _T("XLL.FMIN"))
-	.Arg(XLL_DOUBLE, _T("x"), _T("is the first input value."))
-	.Arg(XLL_DOUBLE, _T("y"), _T("is the second input value."))
+	.Arg(XLL_DOUBLE, _T("x"), _T("is the first input floating point value."))
+	.Arg(XLL_DOUBLE, _T("y"), _T("is the second input floating point value."))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Computes the smaller of two floating point values."))
 	.Documentation(LR"(
@@ -35,10 +35,10 @@ xll_fmin(double x, double y)
 
 xll::test test_xll_fmin([]() {
 	double result;
-	double x = 1.2;
-	double y = 3.3;
+	double x = 1.1;
+	double y = 3.22;
 	result = xll_fmin(x, y);
-	ensure(fabs(result-1.2) <= 1e-6);
+	ensure(fabs(result-1.1)<=1e-6);
 });
 
 #endif // _DEBUG

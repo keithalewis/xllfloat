@@ -107,9 +107,6 @@
     <ClCompile Include="rl3107.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
-    <ClCompile Include="sf3000.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
     <ClCompile Include="sm4723.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
@@ -180,6 +177,9 @@
       <Filter>hw2</Filter>
     </ClCompile>
     <ClCompile Include="xllremquo.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="xllfmin.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
   </ItemGroup>
