@@ -27,7 +27,7 @@
     <ClCompile Include="cz2573.cpp" />
     <ClCompile Include="dy2402.cpp" />
     <ClCompile Include="finite.cpp" />
-    <ClCompile Include="fq2145.cpp" />
+    <ClCompile Include="xllatan2.cpp" />
     <ClCompile Include="fy2214.cpp" />
     <ClCompile Include="ge2247.cpp" />
     <ClCompile Include="gw2376.cpp" />
