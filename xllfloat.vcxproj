@@ -24,7 +24,7 @@
     <ClCompile Include="copysign.cpp" />
     <ClCompile Include="cr2771.cpp" />
     <ClCompile Include="ct2966.cpp" />
-    <ClCompile Include="cz2573.cpp" />
+    <ClCompile Include="xllnearbyint.cpp" />
     <ClCompile Include="dy2402.cpp" />
     <ClCompile Include="finite.cpp" />
     <ClCompile Include="fq2145.cpp" />

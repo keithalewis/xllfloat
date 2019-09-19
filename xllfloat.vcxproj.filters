@@ -62,9 +62,6 @@
     <ClCompile Include="ct2966.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
-    <ClCompile Include="cz2573.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
     <ClCompile Include="dy2402.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
@@ -180,6 +177,9 @@
       <Filter>hw2</Filter>
     </ClCompile>
     <ClCompile Include="xllremquo.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="xllnearbyint.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
   </ItemGroup>
