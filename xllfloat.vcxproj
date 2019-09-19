@@ -42,7 +42,7 @@
     <ClCompile Include="xllremquo.cpp" />
     <ClCompile Include="ldexp.cpp" />
     <ClCompile Include="lz2735.cpp" />
-    <ClCompile Include="ml4403.cpp" />
+    <ClCompile Include="xllpow.cpp" />
     <ClCompile Include="mv2705.cpp" />
     <ClCompile Include="mw3302.cpp" />
     <ClCompile Include="nn2404.cpp" />

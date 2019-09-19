@@ -92,9 +92,6 @@
     <ClCompile Include="lz2735.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
-    <ClCompile Include="ml4403.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
     <ClCompile Include="mv2705.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
@@ -180,6 +177,9 @@
       <Filter>hw2</Filter>
     </ClCompile>
     <ClCompile Include="xllremquo.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="xllpow.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
   </ItemGroup>
