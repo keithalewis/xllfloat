@@ -24,6 +24,7 @@ static AddInX xai_fmin(
 );
 
 
+
 double WINAPI
 xll_fmin(double x, double y) 
 {
