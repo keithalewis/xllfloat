@@ -40,7 +40,7 @@ xll_erfc(double x)
   double t = 1.0/(1.0 + p*x);
   double y = 1.0 - (((((a5*t + a4)*t) + a3)*t + a2)*t + a1)*t*exp(-x*x);
 
-  return 1-sign*y;
+  return 1.0-sign*y;
 }
 
 #if _DEBUG
