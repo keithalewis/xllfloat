@@ -38,7 +38,7 @@ xll_erfc(double x)
 
 
   double z = 1.0/(1.0 + beta*x);
-  double y = 1.0 - (((((alpha5*z + alpha4)*z) + alpha3)*z + alpha2)*t + alpha1)*z*exp(-x*x);
+  double y = 1.0 - (((((alpha5*z + alpha4)*z) + alpha3)*z + alpha2)*z + alpha1)*z*exp(-x*x);
   double anw=1.0-sign*y
   return anw;
 }
