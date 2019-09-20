@@ -188,6 +188,9 @@
     <ClCompile Include="hw3.cpp">
       <Filter>hw3</Filter>
     </ClCompile>
+    <ClCompile Include="array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ulp.h">
@@ -206,5 +209,11 @@
   <ItemGroup>
     <None Include="README.md" />
     <None Include="Debug\hw2.xlsx" />
+    <None Include="hw3.md">
+      <Filter>hw3</Filter>
+    </None>
+    <None Include="hw3.xlsx">
+      <Filter>hw3</Filter>
+    </None>
   </ItemGroup>
 </Project>

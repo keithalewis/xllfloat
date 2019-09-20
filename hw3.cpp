@@ -29,7 +29,7 @@ static AddIn xai_bisect(
 _FP12* WINAPI xll_bisect(HANDLEX f, double x0, double x1)
 {
 #pragma XLLEXPORT
-	static xll::FP12 result(1, 2);
+	static xll::FP12 result(1, 2); // 1 x 2 array of doubles
 
 	try {
 		ensure(x0 <= x1);

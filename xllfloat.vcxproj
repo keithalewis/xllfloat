@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="array.cpp" />
     <ClCompile Include="bjs2205.cpp" />
     <ClCompile Include="chgsign.cpp" />
     <ClCompile Include="copysign.cpp" />
@@ -88,6 +89,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Debug\hw2.xlsx" />
+    <None Include="hw3.md" />
+    <None Include="hw3.xlsx" />
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
