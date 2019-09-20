@@ -69,6 +69,7 @@
     <ClCompile Include="nextafter.cpp" />
     <ClCompile Include="popcount.cpp" />
     <ClCompile Include="ulp.cpp" />
+    <ClCompile Include="hw3.cpp" />
     <ClCompile Include="xw2608.cpp" />
     <ClCompile Include="yc3679.cpp" />
     <ClCompile Include="yc3744.cpp" />
@@ -80,6 +81,7 @@
     <ClCompile Include="zl2776.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="fmsroot1d.h" />
     <ClInclude Include="xllfloat.h" />
     <ClInclude Include="popcount.h" />
     <ClInclude Include="ulp.h" />
