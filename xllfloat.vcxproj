@@ -31,6 +31,7 @@
     <ClCompile Include="fy2214.cpp" />
     <ClCompile Include="ge2247.cpp" />
     <ClCompile Include="gw2376.cpp" />
+    <ClCompile Include="hw3_1.cpp" />
     <ClCompile Include="hz2652.cpp" />
     <ClCompile Include="jc5302.cpp" />
     <ClCompile Include="jh4205.cpp" />
@@ -80,6 +81,7 @@
     <ClCompile Include="zl2776.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="fmsroot1d_1.h" />
     <ClInclude Include="xllfloat.h" />
     <ClInclude Include="popcount.h" />
     <ClInclude Include="ulp.h" />
