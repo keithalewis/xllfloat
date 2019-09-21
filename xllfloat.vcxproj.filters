@@ -13,7 +13,11 @@
       <UniqueIdentifier>{85c69cf2-2c50-4b36-af27-3b1d970c64df}</UniqueIdentifier>
     </Filter>
     <Filter Include="hw3">
+<<<<<<< HEAD
       <UniqueIdentifier>{b3d82fe8-3da9-44fb-a7c7-08d26b8cd0b2}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{d848594d-55f0-48c4-a884-9f98a05deafd}</UniqueIdentifier>
+>>>>>>> 7f5c1fe74dd5ad26b26e063ffa288cd7e5bb08ac
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -182,12 +186,21 @@
     <ClCompile Include="xllremquo.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="xlltanh.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
     <ClCompile Include="hw3_1.cpp">
       <Filter>hw3</Filter>
     </ClCompile>
+=======
+    <ClCompile Include="hw3.cpp">
+      <Filter>hw3</Filter>
+    </ClCompile>
+    <ClCompile Include="array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+>>>>>>> 7f5c1fe74dd5ad26b26e063ffa288cd7e5bb08ac
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ulp.h">
@@ -199,12 +212,22 @@
     <ClInclude Include="xllfloat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="fmsroot1d_1.h">
+=======
+    <ClInclude Include="fmsroot1d.h">
+>>>>>>> 7f5c1fe74dd5ad26b26e063ffa288cd7e5bb08ac
       <Filter>hw3</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
     <None Include="Debug\hw2.xlsx" />
+    <None Include="hw3.md">
+      <Filter>hw3</Filter>
+    </None>
+    <None Include="hw3.xlsx">
+      <Filter>hw3</Filter>
+    </None>
   </ItemGroup>
 </Project>
