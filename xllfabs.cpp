@@ -12,7 +12,7 @@ using namespace xll;
 
 static AddInX xai_fabs(
 	FunctionX(XLL_DOUBLE, _T("?xll_fabs"), _T("XLL.FABS"))
-	.Arg(XLL_DOUBLE, _T("num"), _T("is a floating point number."), _T("-10.56"))
+	.Arg(XLL_DOUBLE, _T("num"), _T("is a floating point number."))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Compute the absolute value of a floating point number."))
 	.Documentation(LR"(
