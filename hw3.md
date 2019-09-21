@@ -1,7 +1,7 @@
 # Homework 3
 
 Commit all your work then pull https://github.com/keithalewis/xllfloat.git.  
-From Team Explorer Home click on Branchss and select the `hw3` branch.
+From Team Explorer Home click on Branches and select the `hw3` branch.
 
 Review the implementation of fms::root1d::bisect.  
 Look for !!! in fmsroot1d.h and hw3.cpp for instructions on what code to write.  
