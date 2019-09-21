@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="array.cpp" />
     <ClCompile Include="bjs2205.cpp" />
     <ClCompile Include="chgsign.cpp" />
     <ClCompile Include="copysign.cpp" />
@@ -69,6 +70,7 @@
     <ClCompile Include="nextafter.cpp" />
     <ClCompile Include="popcount.cpp" />
     <ClCompile Include="ulp.cpp" />
+    <ClCompile Include="hw3.cpp" />
     <ClCompile Include="xw2608.cpp" />
     <ClCompile Include="yc3679.cpp" />
     <ClCompile Include="xllfabs.cpp" />
@@ -80,12 +82,15 @@
     <ClCompile Include="zl2776.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="fmsroot1d.h" />
     <ClInclude Include="xllfloat.h" />
     <ClInclude Include="popcount.h" />
     <ClInclude Include="ulp.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Debug\hw2.xlsx" />
+    <None Include="hw3.md" />
+    <None Include="hw3.xlsx" />
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
