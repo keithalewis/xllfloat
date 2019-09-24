@@ -6,7 +6,6 @@
     <ClCompile Include="chgsign.cpp" />
     <ClCompile Include="copysign.cpp" />
     <ClCompile Include="cr2771.cpp" />
-    <ClCompile Include="ct2966.cpp" />
     <ClCompile Include="cz2573.cpp" />
     <ClCompile Include="dy2402.cpp" />
     <ClCompile Include="finite.cpp" />
@@ -72,6 +71,7 @@
     <ClCompile Include="xllexp2.cpp" />
     <ClCompile Include="xllsinh.cpp" />
     <ClCompile Include="xllcosh.cpp" />
+    <ClCompile Include="xllacosh.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
