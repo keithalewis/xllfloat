@@ -11,7 +11,7 @@
 using namespace xll;
 
 static AddIn xai_signbit(
-	Function(XLL_DOUBLE, _T("?xll_signbit"), _T("SIGNBIT"))
+	Function(XLL_DOUBLE, _T("?xll_signbit"), _T("XLL.SIGNBIT"))
 	.Arg(XLL_DOUBLE, _T("x"), _T("is a floating point number."))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Reverses the sign of x by calling _signbit()"))
@@ -27,3 +27,16 @@ xll_signbit(double x)
 
 	return signbit(x);
 }
+
+#ifdef _DEBUG
+
+xll::test test_xll_signbit([]() {
+_FP12* presult;
+	double input = -3.0;
+
+	presult = xll_signbit(input);
+	ensure(presult->array[0] == 0);
+
+	});
+
+#endif // _DEBUG
