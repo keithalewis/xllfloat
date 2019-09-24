@@ -29,7 +29,7 @@ xll_cos(double x)
 	return cos(x);
 }
 
-#if _DEBUG
+#ifdef _DEBUG
 
 xll::test test_xll_cos([]() {
 	double presult;
