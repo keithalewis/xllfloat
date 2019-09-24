@@ -70,6 +70,7 @@
     <ClCompile Include="xllmodf.cpp" />
     <ClCompile Include="xllfmax.cpp" />
     <ClCompile Include="xllexp2.cpp" />
+    <ClCompile Include="xllsinh.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />

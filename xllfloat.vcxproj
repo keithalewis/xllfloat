@@ -32,6 +32,7 @@
     <ClCompile Include="xllfabs.cpp" />
     <ClCompile Include="xllfmax.cpp" />
     <ClCompile Include="xllmodf.cpp" />
+    <ClCompile Include="xllsinh.cpp" />
     <ClCompile Include="xlltanh.cpp" />
     <ClCompile Include="xllnearbyint.cpp" />
     <ClCompile Include="xllround.cpp" />
