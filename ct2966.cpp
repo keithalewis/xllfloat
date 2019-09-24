@@ -16,7 +16,7 @@
 using namespace xll;
 
 static AddIn xai_arcosh(
-	Function(XLL_DOUBLE, _T("?xll_arcosh"), _T("XLL.ACOSH"))
+	Function(XLL_DOUBLE, _T("?xll_arcosh"), _T("ACOSH"))
 	.Arg(XLL_DOUBLE, _T("x"), _T("is a floating point number."))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("computes the inverse hyperbolic cosine (arcosh(x)) by calling acosh()"))
