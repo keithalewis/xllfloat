@@ -32,7 +32,7 @@ xll_atan2(double y, double x)
 	return se.get();
 }
 
-#if _DEBUG
+#ifdef _DEBUG
 
 
 xll::test test_xll_ATAN2([]() {
