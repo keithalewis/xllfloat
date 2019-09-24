@@ -89,9 +89,6 @@
     <ClCompile Include="js5178.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
-    <ClCompile Include="jz3198.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
     <ClCompile Include="lz2735.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
@@ -184,6 +181,7 @@
     </ClCompile>
     <ClCompile Include="xllerf.cpp">
       <Filter>hw2</Filter>
+    </ClCompile>
     <ClCompile Include="hw3.cpp">
       <Filter>hw3</Filter>
     </ClCompile>

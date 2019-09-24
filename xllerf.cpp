@@ -35,11 +35,10 @@ xll_erf(double X)
 
 xll::test test_xll_erf([]() {
 _FP12* presult;
-	double input = 0.000000;
+	double input = 0.5;
 
 	presult = xll_erf(input);
-	ensure(fabs(presult->array[0] - 0.520499877813) < pow(10, -5)
-);
+	ensure(fabs(presult->array[0] - 0.520499877813) < pow(10, -5));
 
 	});
 
