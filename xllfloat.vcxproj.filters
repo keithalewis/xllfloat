@@ -63,6 +63,7 @@
     <ClCompile Include="xllexpm1.cpp" />
     <ClCompile Include="xllfmin.cpp" />
     <ClCompile Include="xllsin.cpp" />
+    <ClCompile Include="xllround.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />

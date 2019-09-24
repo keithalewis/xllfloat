@@ -9,7 +9,6 @@
 #define CATEGORY "Float"
 #endif
 
-
 using namespace xll;
 
 static AddInX xai_fmin(
