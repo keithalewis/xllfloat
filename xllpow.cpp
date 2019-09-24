@@ -12,8 +12,8 @@
 
 using namespace xll;
 
-static AddIn xai_pow(
-	Function(XLL_DOUBLE, _T("?xll_pow"), _T("XLL.POW"))
+static AddInX xai_pow(
+	FunctionX(XLL_DOUBLE, _T("?xll_pow"), _T("XLL.POW"))
 	.Arg(XLL_DOUBLE, _T("x"), _T("the number to be raised"))
 	.Arg(XLL_DOUBLE, _T("y"), _T("The power that it raise to "))
 	.Category(CATEGORY)

@@ -10,7 +10,6 @@
     <ClCompile Include="cz2573.cpp" />
     <ClCompile Include="dy2402.cpp" />
     <ClCompile Include="finite.cpp" />
-    <ClCompile Include="Source.cpp" />
     <ClCompile Include="xllatan2.cpp" />
     <ClCompile Include="fy2214.cpp" />
     <ClCompile Include="ge2247.cpp" />
@@ -31,7 +30,6 @@
     <ClCompile Include="polynomial.cpp" />
     <ClCompile Include="reverse.cpp" />
     <ClCompile Include="rl3107.cpp" />
-    <ClCompile Include="sf3000.cpp" />
     <ClCompile Include="sm4723.cpp" />
     <ClCompile Include="tk2749.cpp" />
     <ClCompile Include="ts3157.cpp" />
@@ -62,8 +60,8 @@
     <ClCompile Include="xllpow.cpp" />
     <ClCompile Include="xlllogb.cpp" />
     <ClCompile Include="xllcbrt.cpp" />
-    <ClCompile Include="Source1.cpp" />
     <ClCompile Include="xllexpm1.cpp" />
+    <ClCompile Include="xllfmin.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
