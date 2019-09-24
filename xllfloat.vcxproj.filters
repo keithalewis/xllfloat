@@ -21,7 +21,7 @@
     <ClCompile Include="jl5371.cpp" />
     <ClCompile Include="jl5488.cpp" />
     <ClCompile Include="jrk2177.cpp" />
-    <ClCompile Include="js5178.cpp" />
+    <ClCompile Include="xllasinh.cpp" />
     <ClCompile Include="xllremquo.cpp" />
     <ClCompile Include="ldexp.cpp" />
     <ClCompile Include="lz2735.cpp" />
@@ -59,6 +59,7 @@
     <ClCompile Include="yz3632.cpp" />
     <ClCompile Include="zf2209.cpp" />
     <ClCompile Include="zl2776.cpp" />
+    <ClCompile Include="xllpow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
