@@ -1,223 +1,76 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{98108fac-a938-4c54-8d69-9fbc2a9c75c4}</UniqueIdentifier>
-      <Extensions>cpp</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{2315b8a0-193c-4423-943b-cc5f0cf98a3a}</UniqueIdentifier>
-      <Extensions>h</Extensions>
-    </Filter>
-    <Filter Include="hw2">
-      <UniqueIdentifier>{85c69cf2-2c50-4b36-afw27-3b1d970c64df}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="hw3">
-      <UniqueIdentifier>{d848594d-55f0-48c4-a884-9f98a05deafd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="hw3">
-      <UniqueIdentifier>{b4c992dc-775d-47fa-a5e0-26baea491cca}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="array.cpp" />
+    <ClCompile Include="bjs2205.cpp" />
+    <ClCompile Include="chgsign.cpp" />
+    <ClCompile Include="copysign.cpp" />
+    <ClCompile Include="cr2771.cpp" />
+    <ClCompile Include="ct2966.cpp" />
+    <ClCompile Include="cz2573.cpp" />
+    <ClCompile Include="dy2402.cpp" />
+    <ClCompile Include="finite.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="xllatan2.cpp" />
+    <ClCompile Include="fy2214.cpp" />
+    <ClCompile Include="ge2247.cpp" />
+    <ClCompile Include="xllerf.cpp" />
+    <ClCompile Include="hz2652.cpp" />
+    <ClCompile Include="jc5302.cpp" />
+    <ClCompile Include="jh4205.cpp" />
+    <ClCompile Include="jl5371.cpp" />
+    <ClCompile Include="jl5488.cpp" />
+    <ClCompile Include="jrk2177.cpp" />
+    <ClCompile Include="js5178.cpp" />
+    <ClCompile Include="xllremquo.cpp" />
+    <ClCompile Include="ldexp.cpp" />
+    <ClCompile Include="lz2735.cpp" />
+    <ClCompile Include="ml4403.cpp" />
+    <ClCompile Include="mv2705.cpp" />
+    <ClCompile Include="nn2404.cpp" />
+    <ClCompile Include="polynomial.cpp" />
+    <ClCompile Include="reverse.cpp" />
+    <ClCompile Include="rl3107.cpp" />
+    <ClCompile Include="sf3000.cpp" />
+    <ClCompile Include="sm4723.cpp" />
+    <ClCompile Include="tk2749.cpp" />
+    <ClCompile Include="ts3157.cpp" />
+    <ClCompile Include="tvp2110.cpp" />
+    <ClCompile Include="tw2691.cpp" />
+    <ClCompile Include="tz2446.cpp" />
+    <ClCompile Include="wm2404.cpp" />
+    <ClCompile Include="xh2443.cpp" />
+    <ClCompile Include="xl2940.cpp" />
+    <ClCompile Include="xllcos.cpp" />
+    <ClCompile Include="xllerfc.cpp" />
+    <ClCompile Include="xllfloat.cpp" />
+    <ClCompile Include="float_bits.cpp" />
+    <ClCompile Include="frexp.cpp" />
+    <ClCompile Include="limits.cpp" />
+    <ClCompile Include="nextafter.cpp" />
+    <ClCompile Include="popcount.cpp" />
+    <ClCompile Include="ulp.cpp" />
+    <ClCompile Include="hw3.cpp" />
+    <ClCompile Include="xw2608.cpp" />
+    <ClCompile Include="yc3679.cpp" />
+    <ClCompile Include="yc3744.cpp" />
+    <ClCompile Include="yg2631.cpp" />
+    <ClCompile Include="yg2707.cpp" />
+    <ClCompile Include="yz3632.cpp" />
+    <ClCompile Include="zf2209.cpp" />
+    <ClCompile Include="zl2776.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="finite.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="chgsign.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="copysign.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="popcount.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="float_bits.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="frexp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="limits.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="nextafter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ulp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="xllfloat.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="polynomial.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="reverse.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ldexp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="bjs2205.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="cr2771.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="ct2966.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="cz2573.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="dy2402.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="jh4205.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="jl5371.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="jl5488.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="jrk2177.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="js5178.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="lz2735.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="ml4403.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="mv2705.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="mw3302.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="nn2404.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="rl3107.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="sf3000.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="sm4723.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="tk2749.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="ts3157.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="tvp2110.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="tw2691.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="tz2446.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="wm2404.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="xh2443.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="xl2940.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="xw2608.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="yc3679.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="yc3744.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="yg2631.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="yg2707.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="yl4419.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="yz3632.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="zf2209.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="zl2776.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="fy2214.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="ge2247.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="hz2652.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="jc5302.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="xllremquo.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="xllatan2.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="Source.cpp">
-      <Filter>hw3</Filter>
-    </ClCompile>
-    <ClCompile Include="xllerf.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="hw3.cpp">
-      <Filter>hw3</Filter>
-    </ClCompile>
-    <ClCompile Include="array.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="fmsroot1d.h" />
+    <ClInclude Include="xllfloat.h" />
+    <ClInclude Include="popcount.h" />
+    <ClInclude Include="ulp.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ulp.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="popcount.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="xllfloat.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Header.h">
-    <ClInclude Include="fmsroot1d.h">
-      <Filter>hw3</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md" />
     <None Include="Debug\hw2.xlsx" />
-    <None Include="hw3.md">
-      <Filter>hw3</Filter>
-    </None>
-    <None Include="hw3.xlsx">
-      <Filter>hw3</Filter>
-    </None>
+    <None Include="hw3.md" />
+    <None Include="hw3.xlsx" />
+    <None Include="README.md" />
   </ItemGroup>
 </Project>

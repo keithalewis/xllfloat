@@ -45,7 +45,6 @@
     <ClCompile Include="lz2735.cpp" />
     <ClCompile Include="ml4403.cpp" />
     <ClCompile Include="mv2705.cpp" />
-    <ClCompile Include="mw3302.cpp" />
     <ClCompile Include="nn2404.cpp" />
     <ClCompile Include="polynomial.cpp" />
     <ClCompile Include="reverse.cpp" />
@@ -60,6 +59,8 @@
     <ClCompile Include="wm2404.cpp" />
     <ClCompile Include="xh2443.cpp" />
     <ClCompile Include="xl2940.cpp" />
+    <ClCompile Include="xllcos.cpp" />
+    <ClCompile Include="xllerfc.cpp" />
     <ClCompile Include="xllfloat.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
@@ -76,7 +77,6 @@
     <ClCompile Include="yc3744.cpp" />
     <ClCompile Include="yg2631.cpp" />
     <ClCompile Include="yg2707.cpp" />
-    <ClCompile Include="yl4419.cpp" />
     <ClCompile Include="yz3632.cpp" />
     <ClCompile Include="zf2209.cpp" />
     <ClCompile Include="zl2776.cpp" />

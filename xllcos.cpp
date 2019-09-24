@@ -11,7 +11,7 @@
 using namespace xll;
 
 static AddIn xai_cos(
-	Function(XLL_DOUBLE, _T("?xll_cos"), _T("XLLCOS"))
+	Function(XLL_DOUBLE, _T("?xll_cos"), _T("XLL.COS"))
 	.Arg(XLL_DOUBLE, _T("x"), _T("is a floating point number "))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Compute cos(x)"))

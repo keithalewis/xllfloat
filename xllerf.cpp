@@ -11,7 +11,7 @@
 using namespace xll;
 
 static AddInX xai_erf(
-	FunctionX(XLL_FP, _T("?xll_erf"), _T("XLL.ERF"))
+	FunctionX(XLL_DOUBLE, _T("?xll_erf"), _T("XLL.ERF"))
 	.Arg(XLL_DOUBLE, _T("X"), _T("is the valur of input in the erf."), _T("1"))
 	.Category(CATEGORY)
 	.FunctionHelp(_T("Computes the ERF values with respect to the input 'X'."))
@@ -20,25 +20,25 @@ In mathematics, the error function (also called the Gauss error function) is a s
 of sigmoid shape that occurs in probability, statistics, and partial differential equations describing diffusion.
 	)")
 );
-_FP12* WINAPI
+double WINAPI
 xll_erf(double X)
 {
 #pragma XLLEXPORT
-	static xll::FP12 se(1, 1);
+	double se(1.0);
 
-	se[0] = erf(X); // or se(0,0)
+	se = erf(X); // or se(0,0)
 
-	return se.get();
+	return se;
 }
 
 #ifdef _DEBUG
 
 xll::test test_xll_erf([]() {
-_FP12* presult;
+	double presult;
 	double input = 0.5;
 
 	presult = xll_erf(input);
-	ensure(fabs(presult->array[0] - 0.520499877813) < pow(10, -5));
+	ensure(fabs(presult - 0.520499877813) < pow(10, -5));
 
 	});
 
