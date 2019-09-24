@@ -72,6 +72,7 @@
     <ClCompile Include="xllexp2.cpp" />
     <ClCompile Include="xllsinh.cpp" />
     <ClCompile Include="xllcosh.cpp" />
+    <ClCompile Include="xllfmod.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
