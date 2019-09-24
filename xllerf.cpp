@@ -31,14 +31,15 @@ xll_erf(double X)
 	return se.get();
 }
 
-#if _DEBUG
+#ifdef _DEBUG
 
 xll::test test_xll_erf([]() {
 _FP12* presult;
 	double input = 0.000000;
 
 	presult = xll_erf(input);
-	ensure(presult->array[0] == 0);
+	ensure(fabs(presult->array[0] - 0.520499877813) < 10 ^ (-5));
+);
 
 	});
 
