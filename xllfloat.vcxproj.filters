@@ -64,7 +64,8 @@
     <ClCompile Include="xllfmin.cpp" />
     <ClCompile Include="xllsin.cpp" />
     <ClCompile Include="xllround.cpp" />
-    <ClCompile Include="tanh.cpp" />
+    <ClCompile Include="xllnearbyint.cpp" />
+    <ClCompile Include="xlltanh.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
