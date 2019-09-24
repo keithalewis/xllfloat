@@ -32,7 +32,7 @@ xll_nearbyint(double value_input)
 #pragma warning(pop)
 }
 
-#if _DEBUG
+#ifdef _DEBUG
 
 xll::test test_xll_nearbyint([]() {
 	int result;

@@ -11,7 +11,7 @@
 using namespace xll;
 
 static AddInX xai_atan2(
-	FunctionX(XLL_FP, _T("?xll_atan2"), _T("XLL.ATAN2"))
+	FunctionX(XLL_DOUBLE, _T("?xll_atan2"), _T("XLL.ATAN2"))
 	.Arg(XLL_DOUBLE, _T("y"), _T("is the numerator."), _T("0.5"))
 	.Arg(XLL_DOUBLE, _T("x"), _T("is the denominator."), _T("5"))
 	.Category(CATEGORY)
@@ -21,26 +21,26 @@ Computes the arctangent of two double values, and stores an integer double value
 and its approximate quadrants in a location that's specified in a parameter.
 	)")
 );
-_FP12* WINAPI
+double WINAPI
 xll_atan2(double y, double x)
 {
 #pragma XLLEXPORT
-	static xll::FP12 se(1, 2);
+	double se;
 	
-	se[0] = atan2(y, x);
+	se = atan2(y, x);
 
-	return se.get();
+	return se;
 }
 
 #ifdef _DEBUG
 
 
 xll::test test_xll_ATAN2([]() {
-	_FP12* presult;
+	double presult;
 	double y = 0.5;
 	double x = 5;
 	presult = xll_atan2(y, x);
-	ensure(presult->array[0] == 0.099669);
+	ensure(presult == 0.099669);
 	});
 
 #endif // _DEBUG
