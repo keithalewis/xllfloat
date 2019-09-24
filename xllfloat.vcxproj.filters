@@ -12,6 +12,9 @@
     <Filter Include="hw2">
       <UniqueIdentifier>{85c69cf2-2c50-4b36-af27-3b1d970c64df}</UniqueIdentifier>
     </Filter>
+    <Filter Include="hw3">
+      <UniqueIdentifier>{d848594d-55f0-48c4-a884-9f98a05deafd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="finite.cpp">
@@ -176,10 +179,7 @@
     <ClCompile Include="jc5302.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
-    <ClCompile Include="kal2222.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="xlllogb.cpp">
+    <ClCompile Include="xllremquo.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
   </ItemGroup>
@@ -193,9 +193,18 @@
     <ClInclude Include="xllfloat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="fmsroot1d.h">
+      <Filter>hw3</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
     <None Include="Debug\hw2.xlsx" />
+    <None Include="hw3.md">
+      <Filter>hw3</Filter>
+    </None>
+    <None Include="hw3.xlsx">
+      <Filter>hw3</Filter>
+    </None>
   </ItemGroup>
 </Project>
