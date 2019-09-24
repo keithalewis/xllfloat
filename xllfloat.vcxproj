@@ -40,6 +40,7 @@
     <ClCompile Include="jl5488.cpp" />
     <ClCompile Include="jrk2177.cpp" />
     <ClCompile Include="xllasinh.cpp" />
+    <ClCompile Include="xlllogb.cpp" />
     <ClCompile Include="xllpow.cpp" />
     <ClCompile Include="xllremquo.cpp" />
     <ClCompile Include="ldexp.cpp" />

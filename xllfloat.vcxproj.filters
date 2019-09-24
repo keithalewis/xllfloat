@@ -60,6 +60,7 @@
     <ClCompile Include="zf2209.cpp" />
     <ClCompile Include="zl2776.cpp" />
     <ClCompile Include="xllpow.cpp" />
+    <ClCompile Include="xlllogb.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
