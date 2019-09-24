@@ -29,6 +29,7 @@
     <ClCompile Include="dy2402.cpp" />
     <ClCompile Include="finite.cpp" />
     <ClCompile Include="xllfabs.cpp" />
+    <ClCompile Include="xllfmax.cpp" />
     <ClCompile Include="xllmodf.cpp" />
     <ClCompile Include="xlltanh.cpp" />
     <ClCompile Include="xllnearbyint.cpp" />
