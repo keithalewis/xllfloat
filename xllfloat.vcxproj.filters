@@ -69,6 +69,7 @@
     <ClCompile Include="xllfabs.cpp" />
     <ClCompile Include="xllmodf.cpp" />
     <ClCompile Include="xllfmax.cpp" />
+    <ClCompile Include="xllexp2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
