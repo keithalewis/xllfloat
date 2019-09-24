@@ -28,6 +28,7 @@
     <ClCompile Include="cz2573.cpp" />
     <ClCompile Include="dy2402.cpp" />
     <ClCompile Include="finite.cpp" />
+    <ClCompile Include="xllcosh.cpp" />
     <ClCompile Include="xllexp2.cpp" />
     <ClCompile Include="xllfabs.cpp" />
     <ClCompile Include="xllfmax.cpp" />
