@@ -38,7 +38,7 @@ _FP12* presult;
 	double input = 0.000000;
 
 	presult = xll_erf(input);
-	ensure(fabs(presult->array[0] - 0.520499877813) < 10 ^ (-5));
+	ensure(fabs(presult->array[0] - 0.520499877813) < 10 ^ -5
 );
 
 	});
