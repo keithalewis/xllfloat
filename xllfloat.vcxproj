@@ -32,6 +32,7 @@
     <ClCompile Include="xllatan2.cpp" />
     <ClCompile Include="fy2214.cpp" />
     <ClCompile Include="ge2247.cpp" />
+    <ClCompile Include="xllcbrt.cpp" />
     <ClCompile Include="xllerf.cpp" />
     <ClCompile Include="hz2652.cpp" />
     <ClCompile Include="jc5302.cpp" />

@@ -27,7 +27,7 @@ xll_asinh(double x)
 	return static_cast<double>(asinh(x));
 }
 
-#if _DEBUG
+#ifdef _DEBUG
 
 xll::test test_xll_asinh([]() {
 	double param, result;
