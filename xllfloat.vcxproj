@@ -28,6 +28,7 @@
     <ClCompile Include="cz2573.cpp" />
     <ClCompile Include="dy2402.cpp" />
     <ClCompile Include="finite.cpp" />
+    <ClCompile Include="tanh.cpp" />
     <ClCompile Include="xllround.cpp" />
     <ClCompile Include="xllatan2.cpp" />
     <ClCompile Include="fy2214.cpp" />
