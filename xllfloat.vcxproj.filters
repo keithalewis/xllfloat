@@ -15,6 +15,9 @@
     <Filter Include="hw3">
       <UniqueIdentifier>{d848594d-55f0-48c4-a884-9f98a05deafd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="hw3">
+      <UniqueIdentifier>{b4c992dc-775d-47fa-a5e0-26baea491cca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="finite.cpp">
@@ -69,9 +72,6 @@
       <Filter>hw2</Filter>
     </ClCompile>
     <ClCompile Include="dy2402.cpp">
-      <Filter>hw2</Filter>
-    </ClCompile>
-    <ClCompile Include="fq2145.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
     <ClCompile Include="jh4205.cpp">
@@ -179,6 +179,12 @@
     <ClCompile Include="xllremquo.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
+    <ClCompile Include="xllatan2.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>hw3</Filter>
+    </ClCompile>
     <ClCompile Include="xllerf.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
@@ -199,6 +205,7 @@
     <ClInclude Include="xllfloat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Header.h">
     <ClInclude Include="fmsroot1d.h">
       <Filter>hw3</Filter>
     </ClInclude>

@@ -28,7 +28,8 @@
     <ClCompile Include="cz2573.cpp" />
     <ClCompile Include="dy2402.cpp" />
     <ClCompile Include="finite.cpp" />
-    <ClCompile Include="fq2145.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="xllatan2.cpp" />
     <ClCompile Include="fy2214.cpp" />
     <ClCompile Include="ge2247.cpp" />
     <ClCompile Include="xllerf.cpp" />
@@ -81,6 +82,7 @@
     <ClCompile Include="zl2776.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Header.h" />
     <ClInclude Include="fmsroot1d.h" />
     <ClInclude Include="xllfloat.h" />
     <ClInclude Include="popcount.h" />
