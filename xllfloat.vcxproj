@@ -31,6 +31,7 @@
     <ClCompile Include="xllcosh.cpp" />
     <ClCompile Include="xllexp2.cpp" />
     <ClCompile Include="xllfabs.cpp" />
+    <ClCompile Include="xllfma.cpp" />
     <ClCompile Include="xllfmax.cpp" />
     <ClCompile Include="xllfmod.cpp" />
     <ClCompile Include="xllmodf.cpp" />
