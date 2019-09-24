@@ -10,7 +10,7 @@
       <Extensions>h</Extensions>
     </Filter>
     <Filter Include="hw2">
-      <UniqueIdentifier>{85c69cf2-2c50-4b36-afw27-3b1d970c64df}</UniqueIdentifier>
+      <UniqueIdentifier>{85c69cf2-2c50-4b36-af27-3b1d970c64df}</UniqueIdentifier>
     </Filter>
     <Filter Include="hw3">
       <UniqueIdentifier>{d848594d-55f0-48c4-a884-9f98a05deafd}</UniqueIdentifier>
@@ -173,6 +173,9 @@
     <ClCompile Include="ge2247.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
+    <ClCompile Include="gw2376.cpp">
+      <Filter>hw2</Filter>
+    </ClCompile>
     <ClCompile Include="hz2652.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
@@ -182,8 +185,6 @@
     <ClCompile Include="xllremquo.cpp">
       <Filter>hw2</Filter>
     </ClCompile>
-    <ClCompile Include="xllerf.cpp">
-      <Filter>hw2</Filter>
     <ClCompile Include="hw3.cpp">
       <Filter>hw3</Filter>
     </ClCompile>
