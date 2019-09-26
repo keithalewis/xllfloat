@@ -11,8 +11,8 @@ namespace fms::root1d {
 	using F = std::function<double(double)>;
 
 	// Remove after implementing.
-	#pragma warning(push)
-	#pragma warning(disable: 4100 4189)
+	//#pragma warning(push)
+	//#pragma warning(disable: 4100 4189)
 
 	// Bisection: x = (x0 + x1)/2
 	// Given a function, f, and bracket x0 < x1 return the next bracket
@@ -100,5 +100,5 @@ namespace fms::root1d {
 
 	}
 
-#pragma warning(pop)
+//#pragma warning(pop)
 } // namespace fms::root1d
