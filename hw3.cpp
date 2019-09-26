@@ -117,7 +117,7 @@ static AddIn xai_kahan_c(
 	Function(XLL_DOUBLE, L"?xll_kahan_c", L"KAHAN.C")
 	.Arg(XLL_DOUBLE, L"x", L"is the argument.")
 	.Category(L"XLL")
-	.FunctionHelp(L"g(6 * x - pow(x, 4)).")
+	.FunctionHelp(L"log(6 * x - pow(x, 4)).")
 );
 double WINAPI xll_kahan_c(double x)
 {
