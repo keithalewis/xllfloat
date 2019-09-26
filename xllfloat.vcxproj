@@ -90,7 +90,6 @@
   <ItemGroup>
     <None Include="Debug\hw2.xlsx" />
     <None Include="hw3.md" />
-    <None Include="hw3.xlsx" />
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>

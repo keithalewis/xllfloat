@@ -212,8 +212,5 @@
     <None Include="hw3.md">
       <Filter>hw3</Filter>
     </None>
-    <None Include="hw3.xlsx">
-      <Filter>hw3</Filter>
-    </None>
   </ItemGroup>
 </Project>

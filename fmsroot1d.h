@@ -59,7 +59,7 @@ namespace fms::root1d {
 		double y0 = f(x0);
 		double y1 = f(x1);
 
-		double x2 = ((x0 * y1) + (x1 * y0)) / (y1 - y0);
+		double x2 = ((x0 * y1) - (x1 * y0)) / (y1 - y0);
 
 		return x2;
 	}
