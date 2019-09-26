@@ -72,7 +72,7 @@ _FP12* WINAPI xll_false_position(HANDLEX f, double x0, double x1)
 		std::function<double(double)> F = [f](double x) {
 			return Excel(xlUDF, OPER(f), OPER(x));
 		};
-		std::pair<double, double> p = false_positio(F, x0, x1);
+		std::pair<double, double> p = false_position(F, x0, x1);
 
 		result[0] = p.first;
 		result[1] = p.second;
