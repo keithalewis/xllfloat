@@ -10,13 +10,13 @@ namespace fms::root1d {
 	// Alias for a function taking a double and returning double.
 	using F = std::function<double(double)>;
 
-// Remove after implementing.
+	// Remove after implementing.
 #pragma warning(push)
 #pragma warning(disable: 4100 4189)
 
 	// Bisection: x = (x0 + x1)/2
 	// Given a function, f, and bracket x0 < x1 return the next bracket
-	inline std::pair<double,double> bisect(const F& f, double x0, double x1)
+	inline std::pair<double, double> bisect(const F& f, double x0, double x1)
 	{
 		ensure(x0 <= x1);
 
@@ -24,18 +24,18 @@ namespace fms::root1d {
 			return std::pair(x0, x1);
 
 		std::pair<double, double> p;
-		
+
 		double y0 = f(x0);
 		if (y0 == 0)
 			return std::pair(x0, x0);
-		
+
 		double y1 = f(x1);
 		if (y1 == 0)
 			return std::pair(x1, x1);
-		
+
 		ensure(y0 != copysign(y0, y1)); // bracketed
 
-		double x2 = (x0 + x1)/2;
+		double x2 = (x0 + x1) / 2;
 		double y2 = f(x2);
 
 		if (y0 != copysign(y0, y2)) {
@@ -54,15 +54,45 @@ namespace fms::root1d {
 	// Return x = !!!insert formula here
 	inline double secant(const F& f, double x0, double x1)
 	{
-		return 0; //!!! implement formula for x
+		double m = (f(x1) - f(x0)) / (x1 - x0); // calculate slope
+		double x = x0 - (f(x0) / m); // find where it hits the x axis, ie y = 0
+		return x; //!!! implement formula for x
 	}
 
-	inline std::pair<double,double> false_position(const F& f, double x0, double x1)
+	inline std::pair<double, double> false_position(const F& f, double x0, double x1)
 	{
-		double x2 = secant(f, x0, x1);
+		ensure(x0 <= x1);
 
-		return std::pair(0, 0); //!!! return the values that bracket the root
+		if (x0 == x1)
+			return std::pair(x0, x1);
+
+		std::pair<double, double> p;
+
+		double y0 = f(x0);
+		if (y0 == 0)
+			return std::pair(x0, x0);
+
+		double y1 = f(x1);
+		if (y1 == 0)
+			return std::pair(x1, x1);
+
+		ensure(y0 != copysign(y0, y1)); // bracketed
+
+		double x2 = secant(f, x0, x1);
+		double y2 = f(x2);
+
+		if (y0 != copysign(y0, y2)) {
+			p = std::pair(x0, x2);
+		}
+		else {
+			ensure(y1 != copysign(y1, y2));
+
+			p = std::pair(x2, x1);
+		}
+
+		return p; //!!! return the values that bracket the root
 	}
 
 #pragma warning(pop)
 } // namespace fms::root1d
+
