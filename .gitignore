@@ -213,3 +213,8 @@ ModelManifest.xml
 *.db
 *.opendb
 *.swp
+
+
+#ignore vcxproj and vcxproj.filter for submitting homework
+*.vcxproj
+*.vcxproj.filter
