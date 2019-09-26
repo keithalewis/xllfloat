@@ -1,4 +1,4 @@
-// fmsroot1d.h - root finding
+  // fmsroot1d.h - root finding
 #pragma once
 #include <cassert>
 #include <functional>
@@ -49,19 +49,52 @@ namespace fms::root1d {
 
 		return p;
 	}
-
+	
 	// Secant: 0 = m(x - x0) + y0, where m = (y1 - y0)/(x1 - x0) and yi = f(xi), i = 0,1.
 	// Return x = !!!insert formula here
 	inline double secant(const F& f, double x0, double x1)
 	{
-		return 0; //!!! implement formula for x
+		//double y0 = f(x0);
+		//double y1 = f(x1);
+		//double m = (y1 - y0) / (x1 - x0);
+		//double result = x0 - (y0 / m);
+		//slower if return result
+		ensure(f(x1) != f(x0));
+		return (x0 * f(x1) - x1 * f(x0)) / (f(x1) - f(x0)); //!!! implement formula for x
 	}
 
 	inline std::pair<double,double> false_position(const F& f, double x0, double x1)
 	{
-		double x2 = secant(f, x0, x1);
+		ensure(x0 <= x1);
 
-		return std::pair(0, 0); //!!! return the values that bracket the root
+		if (x0 == x1)
+			return std::pair(x0, x1);
+
+		std::pair<double, double> p;
+
+		double y0 = f(x0);
+		if (y0 == 0)
+			return std::pair(x0, x0);
+
+		double y1 = f(x1);
+		if (y1 == 0)
+			return std::pair(x1, x1);
+
+		ensure(y0 != copysign(y0, y1)); // bracketed
+
+		double x2 = secant(f, x0, x1);
+		double y2 = f(x2);
+
+		if (y0 != copysign(y0, y2)) {
+			p = std::pair(x0, x2);
+		}
+		else {
+			ensure(y1 != copysign(y1, y2));
+
+			p = std::pair(x2, x1);
+		}
+
+		return p; //!!! return the values that bracket the root
 	}
 
 #pragma warning(pop)
