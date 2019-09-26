@@ -58,7 +58,7 @@ namespace fms::root1d {
 		double y1 = f(x1);
 		double m = (y1 - y0) / (x1 - x0);
 
-		return -y0 / m + x0; //!!! implement formula for x
+		return (-y0 / m) + x0; //!!! implement formula for x
 	}
 
 	inline std::pair<double, double> false_position(const F& f, double x0, double x1)

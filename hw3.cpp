@@ -1,9 +1,13 @@
 // hw3.cpp
 #include "fmsroot1d.h"
 #include "xll12/xll/xll.h"
+#include <string>
+#include <iostream>
 
 using namespace fms::root1d;
 using namespace xll;
+using namespace std;
+
 
 static AddIn xai_udf(
 	Function(XLL_DOUBLE, L"?xll_udf", L"XLL.UDF")
@@ -53,7 +57,7 @@ _FP12* WINAPI xll_bisect(HANDLEX f, double x0, double x1)
 
 //!!! implement FALSE.POSITION
 static AddIn xai_false_position(
-	Function(XLL_FP, L"?xll_false_position", L"FLASE_POSITION")
+	Function(XLL_FP, L"?xll_false_position", L"FALSE_POSITION")
 	.Arg(XLL_HANDLE, L"f", L"is the function.")
 	.Arg(XLL_DOUBLE, L"x0", L"is the lower bracket.")
 	.Arg(XLL_DOUBLE, L"x1", L"is the upper bracket.")
@@ -101,14 +105,15 @@ double WINAPI xll_kahan_a(double x)
 //!!! Implement KAHAN.B for Fig. 6 example (b) 	
 static AddIn xai_kahan_b(
 	Function(XLL_DOUBLE, L"?xll_kahan_b", L"KAHAN.B")
-	.Arg(XLL_DOUBLE, L"x", L"is the argument")
+	.Arg(XLL_DOUBLE, L"x", L"is the argument.")
 	.Category(L"XLL")
 	.FunctionHelp(L"Evaluate exp(6x-x^4-1)-1")
 );
 double WINAPI xll_kahan_b(double x)
 {
 #pragma XLLEXPORT
-	return exp(6 * x - pow(x, 4) - 1) - 1;
+	double a = exp(6 * x - pow(x, 4) - 1) - 1;
+	return a;
 }
 //!!! Implement KAHAN.C for Fig. 6 example (c) 	
 static AddIn xai_kahan_c(
@@ -120,5 +125,6 @@ static AddIn xai_kahan_c(
 double WINAPI xll_kahan_c(double x)
 {
 #pragma XLLEXPORT
-	return log(6 * x - pow(x, 4));
+	double a = log(6 * x - pow(x, 4));
+	return a;
 }
