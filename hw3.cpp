@@ -100,7 +100,7 @@ double WINAPI xll_kahan_a(double x)
 }
 
 //!!! Implement KAHAN.B for Fig. 6 example (b) 	
-static AddIn xai_kahan_a(
+static AddIn xai_kahan_b(
 	Function(XLL_DOUBLE, L"?xll_kahan_b", L"KAHAN.B")
 	.Arg(XLL_DOUBLE, L"x", L"is the argument.")
 	.Category(L"XLL")
@@ -118,7 +118,7 @@ static AddIn xai_kahan_c(
 	.Category(L"XLL")
 	.FunctionHelp(L"Evaluate ln(6x - x^4).")
 );
-double WINAPI xll_kahan_b(double x)
+double WINAPI xll_kahan_c(double x)
 {
 #pragma XLLEXPORT
 	return log(6*x - pow(x,4));
