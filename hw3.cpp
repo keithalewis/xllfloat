@@ -9,6 +9,7 @@ static AddIn xai_udf(
 	Function(XLL_DOUBLE, L"?xll_udf", L"XLL.UDF")
 	.Arg(XLL_HANDLE, L"f", L"is a handle to the user defined function to call.")
 	.Arg(XLL_DOUBLE, L"x", L"is the argument to the function.")
+	.Uncalced()
 	.Category(L"XLL")
 	.FunctionHelp(L"Call a user defined function with an argument.")
 );
