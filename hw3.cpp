@@ -101,5 +101,27 @@ double WINAPI xll_kahan_a(double x)
 }
 
 //!!! Implement KAHAN.B for Fig. 6 example (b) 	
+static AddIn xai_kahan_b(
+	Function(XLL_DOUBLE, L"?xll_kahan_b", L"KAHAN.B")
+	.Arg(XLL_DOUBLE, L"x", L"is the argument.")
+	.Category(L"XLL")
+	.FunctionHelp(L"Evaluate exp(6 x - x^4 - 1) - 1.")
+);
+double WINAPI xll_kahan_b(double x)
+{
+#pragma XLLEXPORT
+	return exp(6 * x - pow(x, 4) - 1) - 1;
+}
 
 //!!! Implement KAHAN.C for Fig. 6 example (c) 	
+static AddIn xai_kahan_c(
+	Function(XLL_DOUBLE, L"?xll_kahan_c", L"KAHAN.C")
+	.Arg(XLL_DOUBLE, L"x", L"is the argument.")
+	.Category(L"XLL")
+	.FunctionHelp(L"Evaluate log(6 x - x^4).")
+);
+double WINAPI xll_kahan_c(double x)
+{
+#pragma XLLEXPORT
+	return log(6 * x - pow(x, 4));
+}
