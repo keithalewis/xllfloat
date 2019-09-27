@@ -114,8 +114,6 @@ double WINAPI xll_kahan_b(double x)
 	return exp ( 6 * x - pow(x, 4) - 1) -1;
 }
 
-
-
 // Implement KAHAN.C for Fig. 6 example (c) 	
 
 static AddIn xai_kahan_c(
