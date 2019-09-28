@@ -28,7 +28,7 @@ xll_cosh(double x)
 	return se;
 }
 
-#if _DEBUG
+#ifdef _DEBUG
 
 xll::test test_xll_cosh([]() {
 	double presult;

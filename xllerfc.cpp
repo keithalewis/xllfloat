@@ -43,7 +43,7 @@ xll_erfc(double x)
   return anw;
 }
 
-#if _DEBUG
+#ifdef _DEBUG
 
 xll::test test_xll_erfc([]() {
 	double presult;

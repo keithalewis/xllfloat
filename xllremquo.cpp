@@ -34,7 +34,7 @@ xll_remquo(double numer, double denom)
 	return se.get();
 }
 
-#if _DEBUG
+#ifdef _DEBUG
 
 xll::test test_xll_remquo([]() {
 	_FP12* presult;

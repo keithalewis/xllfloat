@@ -2,19 +2,14 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="array.cpp" />
-    <ClCompile Include="bjs2205.cpp" />
     <ClCompile Include="chgsign.cpp" />
     <ClCompile Include="copysign.cpp" />
-    <ClCompile Include="cr2771.cpp" />
-    <ClCompile Include="cz2573.cpp" />
     <ClCompile Include="dy2402.cpp" />
     <ClCompile Include="finite.cpp" />
     <ClCompile Include="xllatan2.cpp" />
     <ClCompile Include="fy2214.cpp" />
-    <ClCompile Include="ge2247.cpp" />
     <ClCompile Include="xllerf.cpp" />
     <ClCompile Include="hz2652.cpp" />
-    <ClCompile Include="jc5302.cpp" />
     <ClCompile Include="jh4205.cpp" />
     <ClCompile Include="jl5371.cpp" />
     <ClCompile Include="jl5488.cpp" />
@@ -22,21 +17,15 @@
     <ClCompile Include="xllasinh.cpp" />
     <ClCompile Include="xllremquo.cpp" />
     <ClCompile Include="ldexp.cpp" />
-    <ClCompile Include="lz2735.cpp" />
-    <ClCompile Include="ml4403.cpp" />
     <ClCompile Include="mv2705.cpp" />
     <ClCompile Include="nn2404.cpp" />
     <ClCompile Include="polynomial.cpp" />
     <ClCompile Include="reverse.cpp" />
-    <ClCompile Include="rl3107.cpp" />
     <ClCompile Include="sm4723.cpp" />
     <ClCompile Include="tk2749.cpp" />
-    <ClCompile Include="ts3157.cpp" />
     <ClCompile Include="tvp2110.cpp" />
     <ClCompile Include="tw2691.cpp" />
-    <ClCompile Include="tz2446.cpp" />
     <ClCompile Include="wm2404.cpp" />
-    <ClCompile Include="xh2443.cpp" />
     <ClCompile Include="xl2940.cpp" />
     <ClCompile Include="xllcos.cpp" />
     <ClCompile Include="xllerfc.cpp" />
@@ -50,12 +39,7 @@
     <ClCompile Include="hw3.cpp" />
     <ClCompile Include="xw2608.cpp" />
     <ClCompile Include="yc3679.cpp" />
-    <ClCompile Include="yc3744.cpp" />
     <ClCompile Include="yg2631.cpp" />
-    <ClCompile Include="yg2707.cpp" />
-    <ClCompile Include="yz3632.cpp" />
-    <ClCompile Include="zf2209.cpp" />
-    <ClCompile Include="zl2776.cpp" />
     <ClCompile Include="xllpow.cpp" />
     <ClCompile Include="xlllogb.cpp" />
     <ClCompile Include="xllcbrt.cpp" />
