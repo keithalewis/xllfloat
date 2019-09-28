@@ -21,14 +21,8 @@ static AddInX xai_round(
 double WINAPI
 xll_round(double value_to_round)
 {
-	/*here I disable the warning sign because the compile will automatically regard warning as error and stop the program*/
-	/*the warning arises because I am converting a "double" into "int", but I think it is okay for this specific function*/
-#pragma XLLEXPORT/*
-#pragma warning(push)
-#pragma warning(disable:4244)*/
-	double round_result = round(value_to_round);
-	return round_result;/*
-#pragma warning(pop)*/
+#pragma XLLEXPORT
+	return round(value_to_round);
 }
 
 #ifdef _DEBUG
@@ -36,6 +30,6 @@ xll::test test_xll_round([]() {
 	double presult;
 	double input = 10.5;
 	presult = xll_round(input);
-	ensure(presult == 10);
+	ensure(presult == 11);
 	});
 #endif

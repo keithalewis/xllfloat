@@ -32,8 +32,9 @@ xll_modf(double x)
 #ifdef _DEBUG
 
 xll::test test_xll_modf([]() {
-	double param = 2.35;
-	ensure((xll_modf(param)->array[0] == 2) && (xll_modf(param)->array[1] == 0.35));
+	double param = 2.5;
+    _FP12* pf = xll_modf(param);
+	ensure(pf->array[0] == 2 && pf->array[1] == 0.5);
 	});
 #endif 
 

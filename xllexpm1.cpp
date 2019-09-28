@@ -23,16 +23,16 @@ xll_expm1(double x)
 {
 #pragma XLLEXPORT
 
-	return exp(x) - 1;
+	return expm1(x);
 }
 
 #ifdef _DEBUG
 
 xll::test test_xll_expm1([]() {
 	double presult;
-	double param = 0;
+	double param = 1e-20;
 	presult = xll_expm1(param);
-	ensure(presult == -1);
+	ensure(presult == 1e-20);
 	});
 
 #endif // _DEBUG 

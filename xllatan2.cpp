@@ -40,7 +40,7 @@ xll::test test_xll_ATAN2([]() {
 	double y = 0.5;
 	double x = 5;
 	presult = xll_atan2(y, x);
-	ensure(presult == 0.099669);
+	ensure(presult == 0.099668652491162024);
 	});
 
 #endif // _DEBUG
