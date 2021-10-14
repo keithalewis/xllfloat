@@ -24,8 +24,8 @@ XLL_ENUM_DOC(CHAR_MAX, CHAR_MAX, CATEGORY, _T("maximum char value [") STR(CHAR_M
 XLL_ENUM_DOC(CHAR_MIN, CHAR_MIN, CATEGORY, _T("mimimum char value [") STR(CHAR_MIN) _T("]."), _T(" "));
 XLL_ENUM_DOC(INT_MAX, INT_MAX, CATEGORY, _T("maximum (signed) int value [") STR(INT_MAX) _T("]."), _T(" "));
 XLL_ENUM_DOC(INT_MIN, INT_MIN, CATEGORY, _T("minimum (signed) int value [") STR(INT_MIN) _T("]."), _T(" "));
-XLL_ENUM_DOC(LONG_MAX, LONG_MAX, CATEGORY, _T("maximum (signed) long value [") STR(LONG_MAX) _T("]."), _T(" "));
-XLL_ENUM_DOC(LONG_MIN, LONG_MIN, CATEGORY, _T("minimum (signed) long value [") STR(LONG_MIN) _T("]."), _T(" "));
+//XLL_ENUM_DOC(LONG_MAX, LONG_MAX, CATEGORY, _T("maximum (signed) long value [") STR(LONG_MAX) _T("]."), _T(" "));
+//XLL_ENUM_DOC(LONG_MIN, LONG_MIN, CATEGORY, _T("minimum (signed) long value [") STR(LONG_MIN) _T("]."), _T(" "));
 XLL_ENUM_DOC(SCHAR_MAX, SCHAR_MAX, CATEGORY, _T("maximum signed char value [") STR(SCHAR_MAX) _T("]."), _T(" "));
 XLL_ENUM_DOC(SCHAR_MIN, SCHAR_MIN, CATEGORY, _T("minimum signed char value [") STR(SCHAR_MIN) _T("]."), _T(" "));
 XLL_ENUM_DOC(SHRT_MAX, SHRT_MAX, CATEGORY, _T("maximum (signed) short value [") STR(SHRT_MAX) _T("]."), _T(" "));

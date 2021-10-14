@@ -20,7 +20,7 @@ struct ulp_traits<double> {
 template<class T>
 inline typename ulp_traits<T>::integer ulp(T x, T y)
 {
-	union { T d; ulp_traits<T>::integer l; } ix, iy;
+	union { T d; typename ulp_traits<T>::integer l; } ix, iy;
 
 	ix.d = x;
 	iy.d = y;
